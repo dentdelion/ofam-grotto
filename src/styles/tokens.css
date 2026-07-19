@@ -1,0 +1,34 @@
+/*
+ * Design tokens — the single place to paste exact values from Figma
+ * (colors, fonts, radii, spacing). Every component styles itself from
+ * these variables, so restyling to match the design happens here first.
+ */
+:root {
+  --color-bg: #1c1a17;
+  --color-surface: #2a2723;
+  --color-surface-raised: #35312b;
+  --color-text: #f2ede4;
+  --color-text-muted: #b5ac9e;
+  --color-accent: #c9a25e;
+  --color-accent-text: #1c1a17;
+
+  /* The Figma design uses Harmonia Sans Pro Cyr (licensed). Drop the woff2
+     files into src/fonts/ and @font-face them here; until then the fallbacks
+     below render the layout with system sans. */
+  --font-display: 'Harmonia Sans Pro Cyr', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Harmonia Sans Pro Cyr', 'Helvetica Neue', Arial, sans-serif;
+
+  /* From Figma "Grotto screen" frames */
+  --color-paper: #ffffff;
+  --color-ink: #000000;
+  --color-screen-text: #ffffff;
+  --color-photo-overlay: rgba(0, 0, 0, 0.4);
+  --color-footer-bg: #000000;
+  --color-onfam-team: #994430;
+
+  --radius-card: 12px;
+  --radius-button: 16px;
+
+  --space-page: 80px;
+  --space-grid-gap: 40px;
+}

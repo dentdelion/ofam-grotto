@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <rect width="1600" height="1200" fill="#6b4a5a"/>
+  <rect x="60" y="60" width="1480" height="1080" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="6"/>
+  <text x="50%" y="48%" font-family="Georgia, serif" font-size="110" fill="#ffffff" fill-opacity="0.9" text-anchor="middle">Stone Carvings</text>
+  <text x="50%" y="58%" font-family="Georgia, serif" font-size="72" fill="#ffffff" fill-opacity="0.7" text-anchor="middle">Photo 5</text>
+</svg>

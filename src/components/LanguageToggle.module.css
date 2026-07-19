@@ -1,0 +1,20 @@
+.toggle {
+  position: absolute;
+  left: 920px;
+  top: 140px;
+  width: 80px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--color-ink);
+}
+
+.toggle:active {
+  background: rgba(0, 0, 0, 0.08);
+}

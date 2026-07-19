@@ -1,0 +1,55 @@
+/* Positions are exact px from the 1080×161 Figma footer frame. */
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 1080px;
+  height: 161px;
+  background: var(--color-footer-bg);
+}
+
+.footer img {
+  position: absolute;
+  object-fit: contain;
+}
+
+.credit {
+  position: absolute;
+  left: 50px;
+  top: 58px;
+  width: 418px;
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.39;
+  color: var(--color-screen-text);
+}
+
+.pfruLogo {
+  left: 493px;
+  top: 48px;
+  width: 173px;
+  height: 63px;
+}
+
+.marazliLogo {
+  left: 714px;
+  top: 48px;
+  width: 97px;
+  height: 67px;
+}
+
+.museumLogoMark {
+  left: 859px;
+  top: 58px;
+  width: 47px;
+  height: 47px;
+}
+
+.museumLogoText {
+  left: 910px;
+  top: 64px;
+  width: 95px;
+  height: 39px;
+}

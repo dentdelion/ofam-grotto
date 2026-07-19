@@ -1,0 +1,28 @@
+.back {
+  position: absolute;
+  left: 80px;
+  top: 140px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 24px 0 20px;
+  background: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--color-screen-text);
+}
+
+.back:active {
+  background: #333;
+}
+
+.chevron {
+  width: 11px;
+  height: 11px;
+  border-left: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+}

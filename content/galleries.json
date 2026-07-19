@@ -1,0 +1,17 @@
+{
+  "gallery-a": {
+    "title": "Collection of Artifacts",
+    "series": [
+      { "folder": "stone-carvings", "title": "Stone Carvings", "caption": "Carved stone artifacts from the early period.", "year": 1890 },
+      { "folder": "ancient-pottery", "title": "Ancient Pottery", "caption": "Ceramic vessels recovered from the excavation site.", "year": 1925 },
+      { "folder": "bronze-tools", "title": "Bronze Tools", "caption": "Bronze-age tools and implements.", "year": 1960 }
+    ]
+  },
+  "gallery-b": {
+    "title": "Archive Collection",
+    "series": [
+      { "folder": "textile-art", "title": "Textile Art", "caption": "Woven textiles and embroidery.", "year": 1935 },
+      { "folder": "manuscripts", "title": "Manuscripts", "caption": "Illuminated manuscripts and early documents.", "year": 2005 }
+    ]
+  }
+}
