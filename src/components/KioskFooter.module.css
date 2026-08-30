@@ -13,16 +13,21 @@
   object-fit: contain;
 }
 
+/* The real kiosk panel is 529×941mm (~1px = 0.49mm); at the Figma-spec 14px
+   this paragraph rendered ~6.9mm tall in person — noticeably smaller than
+   the footer's logos (19–33mm) and hard to read at kiosk distance. Bumped
+   to 17px/tighter line-height so it stays legible without growing the
+   footer's 161px height (which every screen's layout is pinned against). */
 .credit {
   position: absolute;
   left: 50px;
-  top: 58px;
+  top: 40px;
   width: 418px;
   margin: 0;
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 400;
-  line-height: 1.39;
+  line-height: 1.24;
   color: var(--color-screen-text);
 }
 

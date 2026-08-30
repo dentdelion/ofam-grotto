@@ -3,6 +3,31 @@
  * (colors, fonts, radii, spacing). Every component styles itself from
  * these variables, so restyling to match the design happens here first.
  */
+
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr';
+  src: url('../fonts/HarmoniaSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr';
+  src: url('../fonts/HarmoniaSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr';
+  src: url('../fonts/HarmoniaSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-bg: #1c1a17;
   --color-surface: #2a2723;
@@ -12,9 +37,6 @@
   --color-accent: #c9a25e;
   --color-accent-text: #1c1a17;
 
-  /* The Figma design uses Harmonia Sans Pro Cyr (licensed). Drop the woff2
-     files into src/fonts/ and @font-face them here; until then the fallbacks
-     below render the layout with system sans. */
   --font-display: 'Harmonia Sans Pro Cyr', 'Helvetica Neue', Arial, sans-serif;
   --font-body: 'Harmonia Sans Pro Cyr', 'Helvetica Neue', Arial, sans-serif;
 

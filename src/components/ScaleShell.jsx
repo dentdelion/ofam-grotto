@@ -19,6 +19,7 @@ export default function ScaleShell({ children }) {
   return (
     <div className={styles.viewport}>
       <div
+        id="kiosk-canvas"
         className={styles.canvas}
         style={{ width: DESIGN_WIDTH, height: DESIGN_HEIGHT, transform: `scale(${scale})` }}
       >

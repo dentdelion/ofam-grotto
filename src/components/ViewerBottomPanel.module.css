@@ -1,0 +1,117 @@
+.panel {
+  position: absolute;
+  left: 80px;
+  bottom: 161px;
+  width: 920px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #070707;
+}
+
+.filmstrip {
+  flex-shrink: 0;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.filmstrip::-webkit-scrollbar {
+  display: none;
+}
+
+.thumb {
+  flex-shrink: 0;
+  width: 160px;
+  height: 120px;
+  padding: 0;
+  border: 3px solid transparent;
+  overflow: hidden;
+}
+
+.thumbActive {
+  border-color: var(--color-ink);
+}
+
+.thumbImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.counterRow {
+  flex-shrink: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.zoomButton {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zoomIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.counterText {
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+  white-space: nowrap;
+}
+
+.caption {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  border-top: 2px solid var(--color-ink);
+  padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.captionHead {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.subtitle {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.description {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.35;
+}

@@ -23,41 +23,70 @@ await page.getByRole('button', { name: 'Галерея' }).click()
 await page.waitForTimeout(300)
 await page.screenshot({ path: `${shots}/2-gallery-a.png` })
 
-// Open lightbox on first series
+// Open the album viewer (custom lightbox) on the first series
 await page.getByRole('button', { name: /Stone Carvings/ }).click()
 await page.waitForSelector('.pswp--open', { timeout: 5000 })
 await page.waitForTimeout(600)
 await page.screenshot({ path: `${shots}/3-lightbox.png` })
-const counter1 = await page.textContent('.pswp__counter')
+const counter1 = await page.getByTestId('viewer-counter').textContent()
+const filmstripCount = await page.getByTestId('viewer-thumb').count()
+console.log('filmstrip thumbnails:', filmstripCount)
+
+// Advance via the custom next arrow
+await page.getByTestId('viewer-next').click()
+await page.waitForTimeout(400)
+const counter2 = await page.getByTestId('viewer-counter').textContent()
+console.log('counter:', counter1, '->', counter2)
+
+// Jump to a specific photo via the filmstrip
+await page.getByTestId('viewer-thumb').nth(3).click()
+await page.waitForTimeout(400)
+const counter3 = await page.getByTestId('viewer-counter').textContent()
+console.log('counter after filmstrip click (expect .../5 with index 4):', counter3)
 
 // Swipe forward like a visitor would (drag right-to-left across the photo)
-await page.mouse.move(900, 960)
+await page.mouse.move(900, 680)
 await page.mouse.down()
-await page.mouse.move(180, 960, { steps: 15 })
+await page.mouse.move(180, 680, { steps: 15 })
 await page.mouse.up()
 await page.waitForTimeout(600)
-const counter2 = await page.textContent('.pswp__counter')
-const caption = await page.textContent('.pswp__series-caption')
+const counter4 = await page.getByTestId('viewer-counter').textContent()
+console.log('counter after swipe:', counter4)
 await page.screenshot({ path: `${shots}/4-lightbox-next.png` })
-console.log('counter:', counter1, '->', counter2, '| caption:', caption)
 
-// Close lightbox, back to home
-await page.click('.pswp__button--close')
+// Close via the custom back button, back to Gallery, back to Home
+await page.locator('.pswp__custom-back button').click()
 await page.waitForTimeout(400)
-await page.getByRole('button', { name: /Back/ }).click()
+await page.getByRole('button', { name: /Назад|Back/ }).click()
 await page.waitForTimeout(300)
 
 // Gallery B (reference materials)
 await page.getByRole('button', { name: 'Довідникові матеріали' }).click()
 await page.waitForTimeout(300)
 await page.screenshot({ path: `${shots}/5-gallery-b.png` })
-await page.getByRole('button', { name: /Back/ }).click()
+await page.getByRole('button', { name: /Назад|Back/ }).click()
 
 // Info screen
 await page.getByRole('button', { name: 'Загальні відомості' }).click()
 await page.waitForTimeout(300)
 await page.screenshot({ path: `${shots}/6-info.png` })
-await page.getByRole('button', { name: /Back/ }).click()
+
+// Info sub-screen: Chronology (real content); Directors is still a placeholder
+await page.getByRole('button', { name: 'Хронологія назв музею' }).click()
+await page.waitForTimeout(300)
+const chronologyOk = await page.getByText('Одеський національний художній музей').isVisible().catch(() => false)
+console.log('chronology last entry (2021) visible:', chronologyOk ? 'ok' : 'MISSING')
+await page.screenshot({ path: `${shots}/6a-info-chronology.png` })
+await page.getByRole('button', { name: /Назад|Back/ }).click()
+await page.waitForTimeout(300)
+
+await page.getByRole('button', { name: 'Очільники музею' }).click()
+await page.waitForTimeout(300)
+await page.screenshot({ path: `${shots}/6b-info-directors.png` })
+await page.getByRole('button', { name: /Назад|Back/ }).click()
+await page.waitForTimeout(300)
+
+await page.getByRole('button', { name: /Назад|Back/ }).click()
 
 // PROBE: language toggle swaps menu labels
 await page.getByRole('button', { name: 'EN' }).click()

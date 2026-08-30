@@ -1,0 +1,41 @@
+.layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* Vertically centered against the image area between the header and the
+   bottom panel — see TOP_PADDING/BOTTOM_PADDING in lib/lightbox.js. */
+.arrowButton {
+  position: absolute;
+  top: 680px;
+  transform: translateY(-50%);
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.prev {
+  left: 40px;
+}
+
+.next {
+  right: 40px;
+}
+
+.prevIcon,
+.nextIcon {
+  width: 22px;
+  height: auto;
+}
+
+.prevIcon {
+  transform: rotate(-90deg);
+}
+
+.nextIcon {
+  transform: rotate(90deg);
+}

@@ -36,7 +36,7 @@ function buildGalleries() {
         console.warn(`galleries.json lists "${entry.folder}" but content/photos/${galleryId}/${entry.folder}/ has no images`)
         continue
       }
-      series.push(makeSeries(entry.folder, entry.title, entry.caption, images, entry.year))
+      series.push(makeSeries(entry.folder, entry.title, entry.caption, images, entry.year, entry.description))
     }
 
     // Folders staff added without a galleries.json entry still show up,
@@ -52,12 +52,13 @@ function buildGalleries() {
   return galleries
 }
 
-function makeSeries(folder, title, caption, images, year) {
+function makeSeries(folder, title, caption, images, year, description) {
   const sorted = [...images].sort((a, b) => a.file.localeCompare(b.file, undefined, { numeric: true }))
   return {
     folder,
     title,
     caption: caption ?? '',
+    description: description ?? '',
     year: year ?? null,
     images: sorted.map((img) => img.url),
     thumbnail: sorted[0].url,

@@ -1,78 +1,144 @@
 .screen {
+  position: relative;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 60px var(--space-page);
+  background: var(--color-paper);
+  overflow: hidden;
+  color: #070707;
 }
 
 .header {
+  position: absolute;
+  left: 80px;
+  top: 283px;
+  width: 920px;
   display: flex;
-  align-items: center;
-  gap: 48px;
-  margin-bottom: 56px;
-}
-
-.backButton {
-  min-width: 160px;
-  height: 76px;
-  padding: 0 32px;
-  font-size: 30px;
-  color: var(--color-accent);
-  border: 2px solid var(--color-accent);
-  border-radius: var(--radius-button);
-  background: var(--color-surface);
-}
-
-.backButton:active {
-  background: var(--color-surface-raised);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--color-ink);
 }
 
 .title {
   margin: 0;
   font-family: var(--font-display);
-  font-size: 56px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.count {
+  font-size: 36px;
   font-weight: 400;
+  line-height: 1.16;
+}
+
+.filters {
+  position: absolute;
+  left: 80px;
+  top: 374px;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 44px;
+  row-gap: 8px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--color-ink);
+}
+
+.chip {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 4px 8px;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--color-ink);
+  white-space: nowrap;
+}
+
+.checkbox {
+  width: 17px;
+  height: 17px;
+  border: 2px solid var(--color-ink);
+  flex-shrink: 0;
+}
+
+.checked {
+  background: var(--color-ink);
+}
+
+/* Grid frame is 920×1060 at (80, 559) in the design; the custom scrollbar
+   to its right replaces the (hidden) native one. */
+.scrollArea {
+  position: absolute;
+  left: 80px;
+  top: 559px;
+  width: 920px;
+  height: 1060px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.scrollArea::-webkit-scrollbar {
+  display: none;
 }
 
 .grid {
-  flex: 1;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: min-content;
-  gap: var(--space-grid-gap);
-  overflow-y: auto;
+  grid-template-columns: repeat(2, 440px);
+  column-gap: 40px;
+  row-gap: 80px;
   padding-bottom: 40px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  background: var(--color-surface);
-  border-radius: var(--radius-card);
-  overflow: hidden;
+  align-items: flex-start;
+  gap: 12px;
+  width: 440px;
   text-align: left;
 }
 
-.card:active {
-  background: var(--color-surface-raised);
-}
-
 .thumb {
-  width: 100%;
-  aspect-ratio: 4 / 3;
+  width: 440px;
+  height: 241px;
   object-fit: cover;
+  background: #d2d2d2;
   display: block;
 }
 
 .cardTitle {
   font-family: var(--font-display);
-  font-size: 28px;
-  padding: 20px 24px 6px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.16;
 }
 
-.cardCount {
-  font-size: 20px;
-  color: var(--color-text-muted);
-  padding: 0 24px 22px;
+.cardMeta {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.scrollTrack {
+  position: absolute;
+  left: 1020px;
+  top: 548px;
+  width: 12px;
+  height: 1072px;
+  border-radius: 36px;
+  background: #f6f6f6;
+}
+
+.scrollThumb {
+  position: absolute;
+  left: 0;
+  width: 12px;
+  border-radius: 36px;
+  background: #d9d9d9;
 }

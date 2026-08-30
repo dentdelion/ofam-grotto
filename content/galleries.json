@@ -2,16 +2,46 @@
   "gallery-a": {
     "title": "Collection of Artifacts",
     "series": [
-      { "folder": "stone-carvings", "title": "Stone Carvings", "caption": "Carved stone artifacts from the early period.", "year": 1890 },
-      { "folder": "ancient-pottery", "title": "Ancient Pottery", "caption": "Ceramic vessels recovered from the excavation site.", "year": 1925 },
-      { "folder": "bronze-tools", "title": "Bronze Tools", "caption": "Bronze-age tools and implements.", "year": 1960 }
+      {
+        "folder": "stone-carvings",
+        "title": "Stone Carvings",
+        "caption": "Carved stone artifacts from the early period.",
+        "year": 1890,
+        "description": "A set of carved stone fragments recovered during the early excavation seasons, showing tool marks and decorative motifs typical of the period. Placeholder description — replace with real catalog text in content/galleries.json."
+      },
+      {
+        "folder": "ancient-pottery",
+        "title": "Ancient Pottery",
+        "caption": "Ceramic vessels recovered from the excavation site.",
+        "year": 1925,
+        "description": "Ceramic vessels and fragments recovered from the excavation site, ranging from everyday storage jars to finely decorated ritual pieces. Placeholder description — replace with real catalog text in content/galleries.json."
+      },
+      {
+        "folder": "bronze-tools",
+        "title": "Bronze Tools",
+        "caption": "Bronze-age tools and implements.",
+        "year": 1960,
+        "description": "Bronze-age tools and implements used in daily life and craft production, illustrating the metalworking techniques of the era. Placeholder description — replace with real catalog text in content/galleries.json."
+      }
     ]
   },
   "gallery-b": {
     "title": "Archive Collection",
     "series": [
-      { "folder": "textile-art", "title": "Textile Art", "caption": "Woven textiles and embroidery.", "year": 1935 },
-      { "folder": "manuscripts", "title": "Manuscripts", "caption": "Illuminated manuscripts and early documents.", "year": 2005 }
+      {
+        "folder": "textile-art",
+        "title": "Textile Art",
+        "caption": "Woven textiles and embroidery.",
+        "year": 1935,
+        "description": "Woven textiles and embroidery drawn from the archive's holdings, representing regional pattern traditions. Placeholder description — replace with real catalog text in content/galleries.json."
+      },
+      {
+        "folder": "manuscripts",
+        "title": "Manuscripts",
+        "caption": "Illuminated manuscripts and early documents.",
+        "year": 2005,
+        "description": "Illuminated manuscripts and early documents preserved in the archive, spanning several centuries of the collection's history. Placeholder description — replace with real catalog text in content/galleries.json."
+      }
     ]
   }
 }

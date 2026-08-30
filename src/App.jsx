@@ -4,6 +4,8 @@ import Language from './screens/Language'
 import Home from './screens/Home'
 import Gallery from './screens/Gallery'
 import Info from './screens/Info'
+import InfoChronology from './screens/InfoChronology'
+import InfoDetail from './screens/InfoDetail'
 import { galleries } from './lib/content'
 import { preloadAll } from './lib/imageSizes'
 import { closeActiveLightbox } from './lib/lightbox'
@@ -43,9 +45,15 @@ export default function App() {
       {screen === 'language' && <Language onSelect={selectLanguage} />}
       {screen === 'home' && <Home onNavigate={setScreen} lang={lang} onToggleLang={toggleLang} />}
       {(screen === 'gallery-a' || screen === 'gallery-b') && (
-        <Gallery gallery={galleries[screen]} onNavigate={setScreen} />
+        <Gallery gallery={galleries[screen]} onNavigate={setScreen} lang={lang} onToggleLang={toggleLang} />
       )}
-      {screen === 'info' && <Info onNavigate={setScreen} />}
+      {screen === 'info' && <Info onNavigate={setScreen} lang={lang} onToggleLang={toggleLang} />}
+      {screen === 'info-chronology' && (
+        <InfoChronology onNavigate={setScreen} lang={lang} onToggleLang={toggleLang} />
+      )}
+      {screen === 'info-directors' && (
+        <InfoDetail titleKey="infoDirectors" onNavigate={setScreen} lang={lang} onToggleLang={toggleLang} />
+      )}
     </ScaleShell>
   )
 }
