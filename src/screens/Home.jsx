@@ -18,6 +18,9 @@ export default function Home({ onNavigate, lang, onToggleLang }) {
         <button className={styles.menuButton} onClick={() => onNavigate('gallery-a')}>
           {t.menuGallery}
         </button>
+        <button className={styles.menuButton} onClick={() => onNavigate('gallery-c')}>
+          {t.menuMaps}
+        </button>
         <button className={styles.menuButton} onClick={() => onNavigate('gallery-b')}>
           {t.menuReference}
         </button>

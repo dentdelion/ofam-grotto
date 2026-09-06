@@ -7,14 +7,16 @@ All photos live in the `content/photos/` folder. No coding needed.
 ```
 content/
   photos/
-    gallery-a/              ← first gallery
-      stone-carvings/       ← one folder = one photo series
+    gallery-a/              ← Gallery
+      postwar-museum-1947/  ← one folder = one photo series
         01.jpg
         02.jpg
         03.jpg
-      ancient-pottery/
+      gorshteyn-album/
         ...
-    gallery-b/              ← second gallery
+    gallery-c/              ← Maps
+      ...
+    gallery-b/              ← Reference materials
       ...
   galleries.json            ← titles and order of the series
 ```
@@ -25,12 +27,13 @@ Rules:
   letters and dashes, no spaces (e.g. `winter-exhibition`).
 - **Photos show in alphabetical order.** Name them `01.jpg`, `02.jpg`, `03.jpg`, …
   The **first** photo is used as the thumbnail in the gallery grid.
-- Supported formats: JPG, PNG, WebP. Keep photos under ~4000px on the long side so
-  the kiosk stays fast.
+- Supported formats: JPG, PNG, WebP. Full-resolution scans are fine — the build
+  automatically makes small web-sized copies (a 600px grid thumbnail and a 1600px
+  viewer image), so the kiosk only ever downloads those, not the heavy originals.
 
 ## Adding a new series
 
-1. Create a new folder inside `content/photos/gallery-a/` (or `gallery-b/`),
+1. Create a new folder inside `content/photos/gallery-a/`, `gallery-b/`, or `gallery-c/`,
    e.g. `content/photos/gallery-a/winter-exhibition/`.
 2. Copy the photos into it, named `01.jpg`, `02.jpg`, …
 3. Open `content/galleries.json` and add one entry to that gallery's `series` list.

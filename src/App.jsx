@@ -13,7 +13,6 @@ import { galleries } from './lib/content'
 import chapters from './lib/exhibitionChapters'
 import chapterContent from './lib/exhibitionChapterContent'
 import { strings } from './lib/i18n'
-import { preloadAll } from './lib/imageSizes'
 import { closeActiveLightbox } from './lib/lightbox'
 import { useIdleReset } from './lib/useIdleReset'
 
@@ -25,7 +24,6 @@ export default function App() {
   const [chapterIndex, setChapterIndex] = useState(0)
 
   useEffect(() => {
-    preloadAll(galleries)
     const blockContextMenu = (e) => e.preventDefault()
     window.addEventListener('contextmenu', blockContextMenu)
     return () => window.removeEventListener('contextmenu', blockContextMenu)
@@ -56,7 +54,7 @@ export default function App() {
     <ScaleShell>
       {screen === 'language' && <Language onSelect={selectLanguage} />}
       {screen === 'home' && <Home onNavigate={setScreen} lang={lang} onToggleLang={toggleLang} />}
-      {(screen === 'gallery-a' || screen === 'gallery-b') && (
+      {(screen === 'gallery-a' || screen === 'gallery-b' || screen === 'gallery-c') && (
         <Gallery gallery={galleries[screen]} onNavigate={setScreen} lang={lang} onToggleLang={toggleLang} />
       )}
       {screen === 'info' && <Info onNavigate={setScreen} lang={lang} onToggleLang={toggleLang} />}

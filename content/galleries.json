@@ -98,18 +98,199 @@
     "title": "Archive Collection",
     "series": [
       {
-        "folder": "textile-art",
-        "title": "Textile Art",
-        "caption": "Woven textiles and embroidery.",
-        "year": 1935,
-        "description": "Woven textiles and embroidery drawn from the archive's holdings, representing regional pattern traditions. Placeholder description — replace with real catalog text in content/galleries.json."
+        "folder": "home-furnishings-exhibition-catalog",
+        "title_ua": "Каталог виставки домоустрою",
+        "title_en": "Catalog of the Home Furnishings Exhibition",
+        "caption_ua": "Каталог з переліком матеріалів виставки домоустрою.",
+        "caption_en": "A catalog listing the items from the home furnishings exhibition held on the palace.",
+        "description_ua": "Каталог з переліком матеріалів виставки домоустрою, яка проходила на території палацу у 1895 році. Каталог містить мапи приміщень та садів палацу, а також опис кожної окремої зали виставки з іменами учасників.",
+        "description_en": "A catalog listing the items from the home furnishings exhibition held on the palace grounds in 1895. The catalog includes maps of the palace’s interior and gardens, as well as descriptions of each individual exhibition hall, including the names of the participants.",
+        "year": 1895
       },
       {
-        "folder": "manuscripts",
-        "title": "Manuscripts",
-        "caption": "Illuminated manuscripts and early documents.",
-        "year": 2005,
-        "description": "Illuminated manuscripts and early documents preserved in the archive, spanning several centuries of the collection's history. Placeholder description — replace with real catalog text in content/galleries.json."
+        "folder": "fine-arts-museum-organization",
+        "title_ua": "Про організацію Музею красних мистецтв",
+        "title_en": "About the “Museum of Fine Arts” Organization",
+        "caption_ua": "Проєкт правил погоди Міської управи з Товариством красних мистецтв щодо влаштування і керування Міським музеєм красних мистецтв",
+        "caption_en": "Draft Rules Agreed Upon by the City Administration and the Society of Fine Arts Regarding the Organization and Management of the City Museum of Fine Arts",
+        "description_ua": "Одеське міське громадське управління за сприяння Одеського товариства красних мистецтв організовує «Музей красних мистецтв». Його метою є підвищення естетичного смаку та художньої освіти населення. В експозиції будуть представлені класичні та сучасні твори живопису й скульптури, зокрема у вигляді копій, гравюр, фотографій та гіпсових зліпків.",
+        "description_en": "The Odesa City Public Administration, with the assistance of the Odesa Society of Fine Arts, is establishing the \"Museum of Fine Arts.\" Its goal is to enhance the public's aesthetic taste and artistic education. The exhibition will feature classical and contemporary works of painting and sculpture, including copies, engravings, photographs, and plaster casts.",
+        "year": 1916
+      },
+      {
+        "folder": "museum-curator-appointment-report",
+        "title_ua": "Доповідь з приводу призначення на посаду зберігача Музею красних мистецтв",
+        "title_en": "Report on the Appointment of the Curator of the Museum of Fine Arts",
+        "caption_ua": "Доповідь члена Одеської міської управи М. З. Нікітіна",
+        "caption_en": "Report by M. Z. Nikitin, a member of the Odessa City Council",
+        "description_ua": "Доповідь члена Одеської міської управи М. З. Нікітіна  з приводу призначення на посаду зберігача Музею красних мистецтв",
+        "description_en": "Report by M. Z. Nikitin, a member of the Odessa City Council, regarding the appointment of the curator of the Museum of Fine Arts",
+        "year": 1916
+      },
+      {
+        "folder": "museum-building-architecture",
+        "title_ua": "Архітектурні особливості будівлі художнього музею у м. Одесі",
+        "title_en": "Architectural Features of the Fine Arts Museum Building in Odesa",
+        "caption_ua": "Тимофєєнко Володимир: про архітектурні особливості будівлі одеського художнього музею.",
+        "caption_en": "Volodymyr Tymofiyenko: On the Architectural Features of the Odesa Fine Arts Museum Building.",
+        "description_ua": "Тимофєєнко Володимир: текст кандидата мистецтвознавства, доцента старшого наукового співробітника КиївНДІТІ про архітектурні особливості будівлі одеського художнього музею.",
+        "description_en": "Volodymyr Tymofiyenko: Text by Candidate of Art History, Associate Professor, and Senior Research Fellow at KyivNDITI regarding the architectural features of the Odesa Fine Arts Museum building.",
+        "year": null
+      },
+      {
+        "folder": "artifacts-transfer-act-1942",
+        "title_ua": "Акт про видачу музейних експонатів гувернорату Трансністрії",
+        "title_en": "Act on the Transfer of Museum Artifacts to the Transnistrian Governorate",
+        "caption_ua": "Документи періоду румунської окупації 1941-1944 років.",
+        "caption_en": "Documents from the period of the Romanian occupation, 1941–1944.",
+        "description_ua": "Документи періоду румунської окупації 1941-1944 років. Перелік музейних експонатів, виданих гувернорату Трансністрії.",
+        "description_en": "Documents from the period of the Romanian occupation, 1941–1944. List of museum exhibits issued by the Transnistrian Governorate.",
+        "year": 1942
+      },
+      {
+        "folder": "site-and-floor-plans-1951",
+        "title_ua": "Плани ділянки та приміщення музею",
+        "title_en": "Site Plans and Floor Plans of the Museum",
+        "caption_ua": "Генеральний план садибної ділянки №5. Одеська картинна галерея",
+        "caption_en": "Master Plan for Estate Lot No. 5. Odessa Art Gallery",
+        "description_ua": "Генеральний план садибної ділянки №5. Одеська картинна галерея",
+        "description_en": "Master Plan for Estate Lot No. 5. Odessa Art Gallery",
+        "year": 1951
+      },
+      {
+        "folder": "basement-renovation-design-1958",
+        "title_ua": "Ескізний проєкт реконструкції підвалу Картинної галереї",
+        "title_en": "Preliminary Design for the Renovation of the Art Gallery's Basement",
+        "caption_ua": "Архітектори: Попов; Корнет; Бат; Степанов",
+        "caption_en": "Architects: Popov; Kornet; Bat; Stepanov",
+        "description_ua": "Архітектори: Попов; Корнет; Бат; Степанов. Ескізний проєкт реконструкції підвалу Картинної галереї по вулиці Короленка №5 у місті Одесі, затверджений Комітетом Державного будівництва УРСР та Управлінням проєктних організацій, одеською філією українського державного інституту проєктування міст «Гіпроград». Місто Одеса, жовтень 1958 року.",
+        "description_en": "Architects: Popov; Kornet; Bat; Stepanov. Preliminary design for the renovation of the basement of the Art Gallery at 5 Korolenko Street in Odessa, approved by the State Construction Committee of the Ukrainian SSR and the Department of Design Organizations, Odessa branch of the Ukrainian State Institute of Urban Design “Giprograd.” Odessa, October 1958.",
+        "year": 1958
+      },
+      {
+        "folder": "staffing-table-1984",
+        "title_ua": "Штатний розпис Одеського художнього музею",
+        "title_en": "Staffing Table of the Odessa Art Museum",
+        "caption_ua": "Перелік співробітників та їх заробітня плата",
+        "caption_en": "List of Employees and Their Salaries",
+        "description_ua": "Перелік співробітників та їх заробітня плата, розпис адміністративно-господарського, наукового і обслуговуючого персоналу Одеського художнього музею",
+        "description_en": "List of Employees and Their Salaries, and the Breakdown of Administrative, Support, Research, and Service Staff at the Odessa Art Museum",
+        "year": 1984
+      },
+      {
+        "folder": "painting-specifications-1985",
+        "title_ua": "Паспорти фарбування та технології ведення робіт",
+        "title_en": "Painting Specifications and Work Procedures",
+        "caption_ua": "Затверджено Державним комітетом Української РСР у справах будівництва",
+        "caption_en": "Approved by the State Committee of the Ukrainian SSR for Construction",
+        "description_ua": "Затверджено Державним комітетом Української РСР у справах будівництва Українським спеціальним науково-реставраційним виробничим управлінням Українським спеціальним науково-реставраційним проектним інститутом «Укрпроектреставрація».",
+        "description_en": "Approved by the State Committee of the Ukrainian SSR for Construction, the Ukrainian Special Scientific and Restoration Production Administration, and the Ukrainian Special Scientific and Restoration Design Institute “Ukrproektrestavratsiya.”",
+        "year": 1985
+      },
+      {
+        "folder": "landscaping-project-1975",
+        "title_ua": "Проєкт вертикального планування та озеленення пам'ятки архітектури «Художній музей міста Одеси»",
+        "title_en": "Project for the vertical layout and landscaping of the architectural monument, Fine Arts Museum of the City of Odesa",
+        "caption_ua": "Автори: Ширяєв Б.; Мандельблат Л.; Миронченко З.; Меретукова Т.",
+        "caption_en": "Authors: B. Shyriaiev; L. Mandelblat; Z. Myronchenko; T. Meretukova",
+        "description_ua": "Автори: Ширяєв Б.; Мандельблат Л.; Миронченко З.; Меретукова Т.",
+        "description_en": "Authors: B. Shyriaiev; L. Mandelblat; Z. Myronchenko; T. Meretukova",
+        "year": 1975
+      },
+      {
+        "folder": "exhibition-drawings-1966-1977",
+        "title_ua": "Креслення експозиції 1966-1977 років",
+        "title_en": "Exhibition Drawings, 1966–1977",
+        "caption_ua": "Схеми, описи та ескізи варіантів експозиції музею",
+        "caption_en": "Diagrams, descriptions, and sketches of museum exhibition options",
+        "description_ua": "Схеми, описи та ескізи варіантів експозиції музею",
+        "description_en": "Diagrams, descriptions, and sketches of museum exhibition options",
+        "year": null
+      }
+    ]
+  },
+  "gallery-c": {
+    "title": "Maps",
+    "series": [
+      {
+        "folder": "plan-1794-castelnau",
+        "title_ua": "План міста Одеси",
+        "title_en": "Plan of the City of Odesa",
+        "caption_ua": "Сторінка з книги Essai sur l'histoire ancienne et moderne de la Nouvelle Russie",
+        "caption_en": "A page from the book Essai sur l'histoire ancienne et moderne de la Nouvelle Russie",
+        "description_ua": "Сторінка з книги Essai sur l'histoire ancienne et moderne de la Nouvelle Russie (Gabriel de Castelnau. Париж, 1827)",
+        "description_en": "A page from the book Essai sur l'histoire ancienne et moderne de la Nouvelle Russie (Gabriel de Castelnau. Paris, 1827)",
+        "year": 1794
+      },
+      {
+        "folder": "de-wollan-plan-1794",
+        "title_ua": "План Франца де Воллана",
+        "title_en": "Franz de Wollan's Plan",
+        "caption_ua": "План міста Хаджибея з військовою гаванню та пристанню для купецьких суден",
+        "caption_en": "Plan of the Town of Khadjibey with the Military Harbor and the Merchant Port",
+        "description_ua": "План міста Хаджибея з військовою гаванню та пристанню для купецьких суден",
+        "description_en": "Plan of the Town of Khadjibey with the Military Harbor and the Merchant Port",
+        "year": 1794
+      },
+      {
+        "folder": "plan-1814",
+        "title_ua": "План міста Одеси",
+        "title_en": "Plan of the City of Odesa",
+        "caption_ua": "Plan de la Ville d'Odessa en 1814. Вулиця Софіївська до побудови палацу.",
+        "caption_en": "Plan de la Ville d'Odessa en 1814. Sofiivska Street before the construction of the palace.",
+        "description_ua": "Plan de la Ville d'Odessa en 1814. Вулиця Софіївська до побудови палацу.",
+        "description_en": "Plan de la Ville d'Odessa en 1814. Sofiivska Street before the construction of the palace.",
+        "year": 1814
+      },
+      {
+        "folder": "plan-1854",
+        "title_ua": "План міста Одеси",
+        "title_en": "Plan of the City of Odesa",
+        "caption_ua": "План міста, вигравіруваний у військово-топографічному депо. Гравери — Камкін та Андрєєв.",
+        "caption_en": "A city map engraved at the Military Topographic Depot. Engravers: Kamkin and Andreev.",
+        "description_ua": "План міста, вигравіруваний у військово-топографічному депо. Гравери — Камкін та Андрєєв.",
+        "description_en": "A city map engraved at the Military Topographic Depot. Engravers: Kamkin and Andreev.",
+        "year": 1854
+      },
+      {
+        "folder": "general-plan-1892",
+        "title_ua": "Генеральний План міста Одеси",
+        "title_en": "General Plan of the City of Odessa",
+        "caption_ua": "Генеральний План міста Одеси з належною йому землею, розділеною на 6 частин з показанням Предмістій, селищами хуторів садів та інших Казенних та приватних закладів.",
+        "caption_en": "General Plan of the City of Odessa with its associated land, divided into six sections, showing the suburbs, villages, farmsteads, orchards and other state-owned and private establishments.",
+        "description_ua": "Генеральний План міста Одеси з належною йому землею, розділеною на 6 частин з показанням Предмістій, селищами хуторів садів та інших Казенних та приватних закладів. Склав на підставі Генеральної зйомки 1860-70 років і наступних приватних зйомок Міський землемір М. Дітеріхс в 1892 році.",
+        "description_en": "General Plan of the City of Odessa with its associated land, divided into six sections, showing the suburbs, villages, farmsteads, orchards and other state-owned and private establishments. Compiled in 1892 by the City Surveyor M. Dieterichs, based on the General Survey of the 1860s–1870s and subsequent private surveys.",
+        "year": 1892
+      },
+      {
+        "folder": "detailed-plan-1918",
+        "title_ua": "Детальний план міста Одеси та околиць",
+        "title_en": "A detailed map of Odessa and the surrounding area",
+        "caption_ua": "Детальний план міста Одеси та околиць // Одеса: Друкарня «Якір» Троїцька 35,1918.",
+        "caption_en": "Detailed map of the city of Odessa and its surroundings // Odessa: 'Yakir' Printing House, 35 Troitska Street, 1918.",
+        "description_ua": "Детальний план міста Одеси та околиць // Одеса: Друкарня «Якір» Троїцька 35,1918.",
+        "description_en": "Detailed map of the city of Odessa and its surroundings // Odessa: 'Yakir' Printing House, 35 Troitska Street, 1918.",
+        "year": 1918
+      },
+      {
+        "folder": "luftwaffe-aerial-photo-1944",
+        "title_ua": "Одеса на аерофотознімку пілотів Люфтваффе",
+        "title_en": "Odessa in an aerial photograph taken by Luftwaffe pilots",
+        "caption_ua": "Детальний аерофотознімок міста Одеси під час другої світової війни",
+        "caption_en": "A detailed aerial photograph of the city of Odessa during the Second World War",
+        "description_ua": "Детальний аерофотознімок міста Одеси під час другої світової війни",
+        "description_en": "A detailed aerial photograph of the city of Odessa during the Second World War",
+        "year": 1944
+      },
+      {
+        "folder": "torricelli-plan-1826",
+        "title_ua": "План міста Одеси",
+        "title_en": "Plan of the City of Odesa",
+        "caption_ua": "Фрагмент мапи міста Одеси авторства Джорджо Торрічеллі",
+        "caption_en": "An extract from a map of the city of Odessa by Giorgio Torricelli",
+        "description_ua": "Фрагмент мапи міста Одеси авторства Джорджо Торрічеллі",
+        "description_en": "An extract from a map of the city of Odessa by Giorgio Torricelli",
+        "year": 1826
       }
     ]
   }

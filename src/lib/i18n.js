@@ -3,6 +3,7 @@
 export const strings = {
   ua: {
     menuGallery: 'Галерея',
+    menuMaps: 'Мапи',
     menuReference: 'Довідникові матеріали',
     menuInfo: 'Загальні відомості',
     back: 'Назад',
@@ -20,6 +21,7 @@ export const strings = {
   },
   en: {
     menuGallery: 'Gallery',
+    menuMaps: 'Maps',
     menuReference: 'Reference materials',
     menuInfo: 'General information',
     back: 'Back',
@@ -43,9 +45,10 @@ export const strings = {
   },
 }
 
-// Screen titles for the two gallery sections reuse the menu labels.
+// Screen titles for the gallery sections reuse the menu labels.
 export const galleryTitleKey = {
   'gallery-a': 'menuGallery',
+  'gallery-c': 'menuMaps',
   'gallery-b': 'menuReference',
 }
 

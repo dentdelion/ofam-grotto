@@ -1,7 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import PhotoSwipeLightbox from 'photoswipe/lightbox'
 import 'photoswipe/style.css'
-import { getSizes } from './imageSizes'
 import { DESIGN_WIDTH, DESIGN_HEIGHT } from '../designSize'
 import BackButton from '../components/BackButton'
 import LanguageToggle from '../components/LanguageToggle'
@@ -23,13 +22,10 @@ const SIDE_PADDING = 140
 // 2281:9117, with a thumbnail filmstrip added below the image. Renders on
 // top of PhotoSwipe (preserves pinch-zoom/swipe) but swaps its default UI
 // for React-rendered chrome that matches the rest of the kiosk.
-export async function openSeriesLightbox(series, lang, onToggleLang, startIndex = 0) {
-  const sizes = await getSizes(series.images)
-  const dataSource = series.images.map((url, i) => ({
-    src: url,
-    width: sizes[i].width,
-    height: sizes[i].height,
-  }))
+export function openSeriesLightbox(series, lang, onToggleLang, startIndex = 0) {
+  // series.images already carries { src, width, height } measured at build time
+  // (see src/lib/content.js), so there is nothing to preload or measure here.
+  const dataSource = series.images.map(({ src, width, height }) => ({ src, width, height }))
 
   const lightbox = new PhotoSwipeLightbox({
     dataSource,
@@ -109,7 +105,7 @@ export async function openSeriesLightbox(series, lang, onToggleLang, startIndex 
     mount('panel', ViewerBottomPanel, () => ({
       lang: currentLang,
       series,
-      images: series.images,
+      thumbs: series.thumbs,
       currentIndex: pswp.currIndex,
       onSelect: (i) => pswp.goTo(i),
       onZoomIn: () => zoomStep(pswp, 1),

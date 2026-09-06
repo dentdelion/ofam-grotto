@@ -2,9 +2,21 @@ import galleriesConfig from '../../content/galleries.json'
 
 // Every image under content/photos/ is bundled at build time; staff only add
 // files and (optionally) a title entry in content/galleries.json.
-const imageModules = import.meta.glob(
-  '/content/photos/*/*/*.{jpg,jpeg,png,webp,svg,JPG,JPEG,PNG,WEBP,SVG}',
-  { eager: true, query: '?url', import: 'default' },
+//
+// The raw files are multi-megapixel scans (7-14 MB each). We never show more
+// than ~2000px on this 1080-wide kiosk, so each photo is imported twice through
+// vite-imagetools (see vite.config.js) and the originals never reach the bundle:
+//   ?thumb   -> 900px  webp, used for the gallery grid + viewer filmstrip
+//   ?display -> 2000px webp, used for the full-screen lightbox; the ?as=metadata
+//               form also hands us the exact pixel size PhotoSwipe needs, so we
+//               no longer download full images at startup just to measure them.
+const thumbModules = import.meta.glob(
+  '/content/photos/*/*/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}',
+  { eager: true, query: '?thumb', import: 'default' },
+)
+const displayModules = import.meta.glob(
+  '/content/photos/*/*/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}',
+  { eager: true, query: '?display&as=metadata:src;width;height', import: 'default' },
 )
 
 function prettify(slug) {
@@ -16,11 +28,17 @@ function prettify(slug) {
 function buildGalleries() {
   // path: /content/photos/<gallery>/<series>/<file>
   const folders = {}
-  for (const [path, url] of Object.entries(imageModules)) {
+  for (const [path, meta] of Object.entries(displayModules)) {
     const [, , , gallery, series, file] = path.split('/')
     folders[gallery] ??= {}
     folders[gallery][series] ??= []
-    folders[gallery][series].push({ file, url })
+    folders[gallery][series].push({
+      file,
+      thumb: thumbModules[path],
+      src: meta.src,
+      width: meta.width,
+      height: meta.height,
+    })
   }
 
   const galleries = {}
@@ -69,8 +87,11 @@ function makeSeries(folder, title, caption, images, year, description = { ua: ''
     caption: { ua: caption.ua ?? '', en: caption.en ?? '' },
     description: { ua: description.ua ?? '', en: description.en ?? '' },
     year: year ?? null,
-    images: sorted.map((img) => img.url),
-    thumbnail: sorted[0].url,
+    // Display images with their build-time pixel dimensions (for PhotoSwipe).
+    images: sorted.map((img) => ({ src: img.src, width: img.width, height: img.height })),
+    // Lightweight 900px webp versions for the grid card + viewer filmstrip.
+    thumbs: sorted.map((img) => img.thumb),
+    thumbnail: sorted[0].thumb,
   }
 }
 
