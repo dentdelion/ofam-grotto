@@ -43,6 +43,7 @@
   /* From Figma "Grotto screen" frames */
   --color-paper: #ffffff;
   --color-ink: #000000;
+  --color-ink-soft: #070707;
   --color-screen-text: #ffffff;
   --color-photo-overlay: rgba(0, 0, 0, 0.4);
   --color-footer-bg: #000000;

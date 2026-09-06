@@ -34,6 +34,12 @@ export const strings = {
     prevPhoto: 'Previous photo',
     nextPhoto: 'Next photo',
     archiveLine: (year) => `${year}. ONHM Archive`,
+    // English-only menu entry (Figma "ENG Grotto screen", node 2331:1412) —
+    // no Ukrainian equivalent has been requested, so this key is EN-only.
+    exploreExhibition: 'Explore the Exhibition',
+    // Back-button label for the exhibition chapter list (Figma node
+    // 2428:2316) — English-only, same reasoning as exploreExhibition above.
+    returnButton: 'Return',
   },
 }
 

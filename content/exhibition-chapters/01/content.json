@@ -1,0 +1,109 @@
+{
+  "blocks": [
+    {
+      "type": "quote",
+      "paragraphs": [
+        "Following the capture in 1789 by Russian troops led by José de Ribas of the Turkish fortress and settlement of Khadzhibey, as well as the annexation of a larger territory in the Northern Black Sea region to the Russian Empire under the terms of the Treaty of Jassy, which ended the Russo-Turkish War, – by order of Empress Kateryny II, a port was to be established in Khadzhibey. The name “Odesa” began to appear in documents as early as 1795 – when Khadzhibey was renamed in honor of the ancient Greek settlement of Odesos. Replacing place names in conquered territories with Greek ones was a typical imperial practice aimed at erasing local identities.",
+        "Dutch engineer Franz de Wollan, who became Odesa’s first architect, worked on developing the city plan. The main construction efforts were focused on developing the port infrastructure, the administrative center, and the surrounding neighborhoods, which supported trade and governance. It was he who designed the grid layout of the city center that we still use today. "
+      ]
+    },
+    {
+      "type": "image",
+      "file": "plan-1794.jpg",
+      "width": 460,
+      "height": 322,
+      "caption": [
+        "Page from the book Essai sur l'histoire ancienne et moderne de la Nouvelle Russie",
+        "Gabriel de Castelnau. Paris, 1827. ",
+        "Digital copy of the document. ",
+        "Source: Odesa History online resource"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "On early city maps, the site of the current museum building was an undeveloped plot that, at that time, had neither transportation nor symbolic significance, nor even access to the seashore. According to cartographic and descriptive sources from the late 18th century, the site was part of a coastal plateau with a natural slope toward the sea and had no permanent structures – nor were any planned. Part of the territory was planted with orchards, and only the coastal plots were permitted to be sold, since many merchants received their goods by sea.",
+        "In 1804, the Odesa Construction Committee was established.",
+        "From then on, the committee was responsible for addressing issues of urban improvement, general urban planning, the construction of public buildings, street paving, the establishment of municipal utilities, landscaping, water supply, and sewerage. It was also responsible for allocating land for private construction, overseeing the implementation of planned projects, and issuing permits."
+      ]
+    },
+    {
+      "type": "image",
+      "file": "khadjibey-plan-1794.jpg",
+      "width": 460,
+      "height": 357,
+      "caption": [
+        "Plan of the Town of Khadjibey with the Military Harbor and the Merchant Port, 1794",
+        "Compiled by Franz de Volan.",
+        "Digital copy of the document.",
+        "Source: Vernadsky National Library of Ukraine"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "On January 17, 1810, a plot of land for development on the site of the future museum was granted to Odesa timber merchant and Second Guild merchant Martyn Vasylovych Katolikov, who at that time already owned significant real estate in the city and was also one of the first developers of the New Bazaar. As early as 1805, he had been using the areas lower down the slope to store timber."
+      ]
+    },
+    {
+      "type": "quote",
+      "paragraphs": [
+        "Young Odesa was in dire need of construction timber, which was brought from far away — it was floated down rivers, primarily the Dnipro to Kherson, and then along the Black Sea coast, and stored at Peresyp (initially, this name was used only in the masculine form), within the boundaries of the so-called Lisna(Forest) Pier. And this very Peresyp did not begin at the current bridge, but much further upstream—right at the beach below the Art Museum. To the right, toward Viiskova(Millitary) Balka, lay Kupalnyi Bereg, where the first private bathing establishments were later built."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "Directly on the seashore, at the foot of the slope, Katolikov set aside space for storing lumber, and the area higher up — for building a house, as evidenced by a document addressed to the Construction Committee. He planted the entire slope all the way down to the sea (Prymorska Street did not yet exist at that time) with a fruit orchard comprising three thousand trees."
+      ]
+    },
+    {
+      "type": "image",
+      "file": "plan-odesa-1814.jpg",
+      "width": 460,
+      "height": 321,
+      "caption": [
+        "Plan de la Ville d'Odessa en 1814 (\"Plan of the City of Odesa in 1814\")",
+        "Sofiivska Street before the construction of the palace.",
+        "Digital copy of the document.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "plan-odesa-1854-detail.jpg",
+      "width": 460,
+      "height": 321,
+      "crop": { "width": "388.04%", "height": "602.35%", "left": "-166.78%", "top": "-223.81%" },
+      "caption": [
+        "Plan of the City of Odesa, 1854",
+        "Digital copy of the document.",
+        "Source: Odesa History online resource"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "petition-katolikov-1812.jpg",
+      "width": 240,
+      "height": 367,
+      "caption": [
+        "Petition by M. Katolikov, 1812",
+        "Digital copy of the document.",
+        "Source: State Archive of Odesa Oblast"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "minchiaki-plan-1822.jpg",
+      "width": 240,
+      "height": 352,
+      "caption": [
+        "Hand-drawn Plan by Minchiaki, 1822",
+        "Digital copy of the document.",
+        "Source: Department of Rare Books and Manuscripts, Odesa National Scientific Library",
+        "",
+        "A map drawn up by Minchiaki in the summer of 1822 depicts a section of the strategically necessary new road, which, according to a decision by the Odesa Construction Committee, was laid through E. Popov’s vineyards all the way to Peresyp, the two houses of M. Katolikov—which he had already managed to build—his garden, which sloped down from the cliff to the sea, as well as a house with a small outbuilding next to it, belonging to Sofia Pototska, after whom the street was named."
+      ]
+    }
+  ]
+}

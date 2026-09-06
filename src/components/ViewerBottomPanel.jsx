@@ -36,10 +36,10 @@ export default function ViewerBottomPanel({ lang, series, images, currentIndex, 
 
       <div className={styles.caption}>
         <div className={styles.captionHead}>
-          <p className={styles.title}>{series.title}</p>
+          <p className={styles.title}>{series.title[lang]}</p>
           {series.year != null && <p className={styles.subtitle}>{t.archiveLine(series.year)}</p>}
         </div>
-        {series.description && <p className={styles.description}>{series.description}</p>}
+        {series.description[lang] && <p className={styles.description}>{series.description[lang]}</p>}
       </div>
     </div>
   )

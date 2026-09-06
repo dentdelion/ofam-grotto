@@ -3,25 +3,94 @@
     "title": "Collection of Artifacts",
     "series": [
       {
-        "folder": "stone-carvings",
-        "title": "Stone Carvings",
-        "caption": "Carved stone artifacts from the early period.",
-        "year": 1890,
-        "description": "A set of carved stone fragments recovered during the early excavation seasons, showing tool marks and decorative motifs typical of the period. Placeholder description — replace with real catalog text in content/galleries.json."
+        "folder": "postwar-museum-1947",
+        "title_ua": "Одеський художній музей у повоєнні роки",
+        "title_en": "The Odessa Art Museum in the post-war years",
+        "caption_ua": "Стан будівлі музею у перші роки після Другої світової війни",
+        "caption_en": "The condition of the museum building in the early years following the Second World War",
+        "description_ua": "Стан будівлі музею у перші роки після Другої світової війни",
+        "description_en": "The condition of the museum building in the early years following the Second World War",
+        "year": 1947
       },
       {
-        "folder": "ancient-pottery",
-        "title": "Ancient Pottery",
-        "caption": "Ceramic vessels recovered from the excavation site.",
-        "year": 1925,
-        "description": "Ceramic vessels and fragments recovered from the excavation site, ranging from everyday storage jars to finely decorated ritual pieces. Placeholder description — replace with real catalog text in content/galleries.json."
+        "folder": "gorshteyn-album",
+        "title_ua": "Альбом Горштейна",
+        "title_en": "Gorshteyn’s Album",
+        "caption_ua": "Набір фотографій 1900 року \"Одеський міський музей красних мистецтв з фотографічного ательє А. Горнштейна, розташованого за адресою: Одеса, вул. Рішельєвська, будинок 7\"",
+        "caption_en": "A collection of photographs from 1900: ‘Odessa City Museum of Fine Arts, from the photographic studio of A. Hornstein, located at 7 Richelievskaya Street, Odessa’",
+        "description_ua": "Набір фотографій 1900 року \"Одеський міський музей красних мистецтв з фотографічного ательє А. Горнштейна, розташованого за адресою: Одеса, вул. Рішельєвська, будинок 7\"",
+        "description_en": "A collection of photographs from 1900: ‘Odessa City Museum of Fine Arts, from the photographic studio of A. Hornstein, located at 7 Richelievskaya Street, Odessa’",
+        "year": 1900
       },
       {
-        "folder": "bronze-tools",
-        "title": "Bronze Tools",
-        "caption": "Bronze-age tools and implements.",
-        "year": 1960,
-        "description": "Bronze-age tools and implements used in daily life and craft production, illustrating the metalworking techniques of the era. Placeholder description — replace with real catalog text in content/galleries.json."
+        "folder": "kharkiv-graphic-artists-exhibition",
+        "title_ua": "Виставка «Твори харківських художників-графіків»",
+        "title_en": "Exhibition: ‘Works by Kharkiv Graphic Artists’",
+        "caption_ua": "Чорно-білі фотографії експозиції виставки харьківських художників – графіків.",
+        "caption_en": "Black-and-white photographs from an exhibition featuring Kharkiv-based graphic artists.",
+        "description_ua": "Чорно-білі фотографії експозиції виставки харьківських художників – графіків.",
+        "description_en": "Black-and-white photographs from an exhibition featuring Kharkiv-based graphic artists.",
+        "year": 1954
+      },
+      {
+        "folder": "bogdesko-exhibition",
+        "title_ua": "Виставка «Твори заслуженого митця МРСР Іллі Богдеско (графіка)»",
+        "title_en": "Exhibition: ‘Works by Ilya Bogdesko, Honoured Artist of the USSR (graphic art)’",
+        "caption_ua": "Чорно-біла фотографія експозиції виставки заслуженого митця МРСР Іллі Богдеско.",
+        "caption_en": "A black-and-white photograph of the exhibition by Ilya Bogdesko, an Honoured Artist of the USSR.",
+        "description_ua": "Чорно-біла фотографія експозиції виставки заслуженого митця МРСР Іллі Богдеско.",
+        "description_en": "A black-and-white photograph of the exhibition by Ilya Bogdesko, an Honoured Artist of the USSR.",
+        "year": 1961
+      },
+      {
+        "folder": "gallery-photo-album-1965",
+        "title_ua": "Альбом «Фотографії Одеської державної картинної галереї»",
+        "title_en": "The album ‘Photographs of the Odessa State Art Gallery’",
+        "caption_ua": "Альбом 1965 року містить фотографії архітектурних елементів будівлі Одеського художнього музею.",
+        "caption_en": "This 1965 album contains photographs of architectural elements of the Odesa Fine Arts Museum building.",
+        "description_ua": "Альбом 1965 року містить фотографії архітектурних елементів будівлі Одеського художнього музею. Матеріали підготовлено Республіканськими спеціальними науково-реставраційними майстернями для фіксації стану пам'ятки.",
+        "description_en": "This 1965 album contains photographs of architectural elements of the Odesa Fine Arts Museum building. The materials were prepared by the Republican Special Scientific Restoration Workshops to document the monument's condition.",
+        "year": 1965
+      },
+      {
+        "folder": "amateur-artists-exhibition",
+        "title_ua": "Обласна виставка творів самодіяльних художників та народних умільців",
+        "title_en": "A regional exhibition of works by amateur artists and folk craftspeople",
+        "caption_ua": "Чорно-білі фотографії з відкриття виставки.",
+        "caption_en": "Black-and-white photographs from the exhibition opening.",
+        "description_ua": "Чорно-білі фотографії з відкриття виставки  (Час проведення 29.03.1976-3.05.1976). Відвідувачі та експозиція виставки.",
+        "description_en": "Black-and-white photographs from the exhibition opening (Dates: 29 March 1976 – 3 May 1976). Visitors and the exhibition display.",
+        "year": 1976
+      },
+      {
+        "folder": "soviet-era-collections",
+        "title_ua": "Фото музейних фондів у радянський період",
+        "title_en": "Photographs from museum collections during the Soviet period",
+        "caption_ua": "Вигляд нижніх музейних фондів.",
+        "caption_en": "A view of the lower museum storage area.",
+        "description_ua": "Вигляд нижніх музейних фондів.",
+        "description_en": "A view of the lower museum storage area.",
+        "year": null
+      },
+      {
+        "folder": "spring-exhibition-1987",
+        "title_ua": "Весняна виставка творів художників Одеси",
+        "title_en": "Spring exhibition of works by Odessa artists",
+        "caption_ua": "Фото Івана Череватенко.",
+        "caption_en": "Photo by Ivan Cherevatenko.",
+        "description_ua": "Фото Івана Череватенко. На виставці відвідувачі мали змогу придбати твори, що сподобались.",
+        "description_en": "Photo by Ivan Cherevatenko. Visitors had the opportunity to purchase the works they liked at the exhibition.",
+        "year": 1987
+      },
+      {
+        "folder": "museum-premises-1920s-30s",
+        "title_ua": "Фото музейних приміщень 1920-30-ті роки",
+        "title_en": "Photographs of the museum premises from the 1920s and 1930s",
+        "caption_ua": "Негативи на срібно-желатинових скляних пластинах.",
+        "caption_en": "Silver gelatine glass plate negatives.",
+        "description_ua": "Негативи на срібно-желатинових скляних пластинах з архіву музею. Представлені фото експозиції першого та другого поверхів на початку ХХ ст. Частина фото є основою виставки \"Музейна історія\".",
+        "description_en": "Silver gelatine glass plate negatives from the museum’s archive. The photographs show the displays on the first and second floors at the beginning of the 20th century. Some of these photographs form the basis of the ‘Museum History’ exhibition.",
+        "year": null
       }
     ]
   },

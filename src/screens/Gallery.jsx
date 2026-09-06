@@ -82,9 +82,9 @@ export default function Gallery({ gallery, onNavigate, lang, onToggleLang }) {
         <div className={styles.grid}>
           {series.map((s) => (
             <button key={s.folder} className={styles.card} onClick={() => openSeriesLightbox(s, lang, onToggleLang)}>
-              <img className={styles.thumb} src={s.thumbnail} alt={s.title} />
-              <span className={styles.cardTitle}>{s.title}</span>
-              <span className={styles.cardMeta}>{s.caption}</span>
+              <img className={styles.thumb} src={s.thumbnail} alt={s.title[lang]} />
+              <span className={styles.cardTitle}>{s.title[lang]}</span>
+              <span className={styles.cardMeta}>{s.caption[lang]}</span>
             </button>
           ))}
         </div>

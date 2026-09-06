@@ -1,0 +1,66 @@
+.screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--color-paper);
+  overflow: hidden;
+  color: var(--color-ink-soft);
+}
+
+.header {
+  position: absolute;
+  left: 80px;
+  top: 213px;
+  width: 920px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--color-ink);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+/* Frame is 720×1194, centered in the 1080-wide screen, from y=355 — no
+   footer on this screen (Figma node 2303:811 has none), so the list can
+   scroll right up to the bottom edge. */
+.list {
+  position: absolute;
+  left: 180px;
+  top: 355px;
+  width: 720px;
+  height: 1194px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow-y: auto;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.years {
+  flex-shrink: 0;
+  width: 210px;
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.name {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.16;
+}

@@ -1,0 +1,42 @@
+.screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--color-paper);
+  overflow: hidden;
+}
+
+/* Positions are exact px from the 1080×1920 Figma frame (node 2428:2313):
+   list box at x=80 y=210 920×1399, with 80px top/bottom padding and 12
+   rows evenly spaced (justify-content: space-between) between them. */
+.list {
+  position: absolute;
+  left: 80px;
+  top: 210px;
+  width: 920px;
+  height: 1399px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.item {
+  width: 820px;
+  flex-shrink: 0;
+  padding-bottom: 18px;
+  border-bottom: 2px solid var(--color-ink);
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.16;
+  color: var(--color-ink-soft);
+  text-align: left;
+}
+
+.item:active {
+  opacity: 0.6;
+}

@@ -5,28 +5,6 @@
   overflow: hidden;
 }
 
-/* The photo is much larger than the frame in Figma; these offsets reproduce
-   the exact crop chosen in the design. */
-.bg {
-  position: absolute;
-  inset: 0;
-}
-
-.bg img {
-  position: absolute;
-  left: -973px;
-  top: -160px;
-  width: 3938px;
-  height: 2619px;
-}
-
-.bg::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--color-photo-overlay);
-}
-
 .titleUa,
 .titleEn {
   position: absolute;

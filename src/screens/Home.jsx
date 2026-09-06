@@ -9,7 +9,12 @@ export default function Home({ onNavigate, lang, onToggleLang }) {
   return (
     <div className={styles.screen}>
       <LanguageToggle lang={lang} onToggle={onToggleLang} />
-      <div className={styles.menu}>
+      <div className={lang === 'en' ? `${styles.menu} ${styles.menuEn}` : styles.menu}>
+        {lang === 'en' && (
+          <button className={styles.menuButton} onClick={() => onNavigate('explore-exhibition')}>
+            {t.exploreExhibition}
+          </button>
+        )}
         <button className={styles.menuButton} onClick={() => onNavigate('gallery-a')}>
           {t.menuGallery}
         </button>

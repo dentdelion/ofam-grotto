@@ -36,14 +36,23 @@ function buildGalleries() {
         console.warn(`galleries.json lists "${entry.folder}" but content/photos/${galleryId}/${entry.folder}/ has no images`)
         continue
       }
-      series.push(makeSeries(entry.folder, entry.title, entry.caption, images, entry.year, entry.description))
+      series.push(makeSeries(
+        entry.folder,
+        { ua: entry.title_ua, en: entry.title_en },
+        { ua: entry.caption_ua, en: entry.caption_en },
+        images,
+        entry.year,
+        { ua: entry.description_ua, en: entry.description_en },
+      ))
     }
 
     // Folders staff added without a galleries.json entry still show up,
-    // with a title derived from the folder name.
+    // with a title derived from the folder name (same string in both languages,
+    // since there's no translation to draw from).
     for (const [folder, images] of Object.entries(seriesFolders)) {
       if (!listed.has(folder)) {
-        series.push(makeSeries(folder, prettify(folder), '', images))
+        const fallback = prettify(folder)
+        series.push(makeSeries(folder, { ua: fallback, en: fallback }, { ua: '', en: '' }, images))
       }
     }
 
@@ -52,13 +61,13 @@ function buildGalleries() {
   return galleries
 }
 
-function makeSeries(folder, title, caption, images, year, description) {
+function makeSeries(folder, title, caption, images, year, description = { ua: '', en: '' }) {
   const sorted = [...images].sort((a, b) => a.file.localeCompare(b.file, undefined, { numeric: true }))
   return {
     folder,
     title,
-    caption: caption ?? '',
-    description: description ?? '',
+    caption: { ua: caption.ua ?? '', en: caption.en ?? '' },
+    description: { ua: description.ua ?? '', en: description.en ?? '' },
     year: year ?? null,
     images: sorted.map((img) => img.url),
     thumbnail: sorted[0].url,

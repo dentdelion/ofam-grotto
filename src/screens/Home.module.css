@@ -6,14 +6,23 @@
   overflow: hidden;
 }
 
-/* Buttons sit at x=296 y=600 in the 1080×1920 frame, stacked with a 40px gap. */
+/* Buttons sit at x=296 y=391 in the 1080×1920 frame, stacked with a 40px gap
+   (Figma node 2281:8921, updated layout — buttons moved higher up the page). */
 .menu {
   position: absolute;
   left: 296px;
-  top: 600px;
+  top: 391px;
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+/* English adds a 4th button ("Explore the Exhibition", Figma node 2331:1416,
+   no Ukrainian equivalent requested). Its Figma frame (2331:1412) starts the
+   4-button-equivalent stack at y=334 instead of 600 — same 40px gap, so the
+   3 existing buttons land exactly on that frame's own slot positions. */
+.menuEn {
+  top: 334px;
 }
 
 .menuButton {
