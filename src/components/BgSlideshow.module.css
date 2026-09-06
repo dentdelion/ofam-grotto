@@ -25,3 +25,21 @@
   inset: 0;
   background: var(--color-photo-overlay);
 }
+
+/* The partner-credits slide. z-index lifts it above the language-choice
+   titles/buttons on the entry screen (which sit at the default z-index);
+   while hidden it must not swallow taps meant for those buttons. */
+.credits,
+.creditsActive {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1.2s ease;
+}
+
+.creditsActive {
+  opacity: 1;
+  pointer-events: auto;
+}

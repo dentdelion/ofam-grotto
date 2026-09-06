@@ -4,3 +4,16 @@
 
 [build.environment]
   NODE_VERSION = "24"
+
+# `npm run build` triggers "prebuild" -> scripts/media-fetch.mjs, which downloads
+# content/photos/ (the ~1 GB of raw scans) from the GitHub Release pinned in
+# content/photos.version. This plugin caches the extracted folder between builds
+# so it is only re-downloaded when that pin changes.
+#
+# For a PRIVATE repo, also set GITHUB_TOKEN (a fine-grained token with
+# "Contents: read") in Site settings -> Environment variables.
+[[plugins]]
+  package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+    paths = ["content/photos"]

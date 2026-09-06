@@ -4,10 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/media-fetch.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/media-fetch.mjs",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "media:fetch": "node scripts/media-fetch.mjs",
+    "media:publish": "node scripts/media-publish.mjs"
   },
   "dependencies": {
     "photoswipe": "^5.4.4",
@@ -19,6 +23,7 @@
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3",
+    "netlify-plugin-cache": "^1.0.3",
     "oxlint": "^1.71.0",
     "playwright": "^1.61.1",
     "vite": "^8.1.1",

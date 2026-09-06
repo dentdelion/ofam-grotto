@@ -1,6 +1,5 @@
 import BackButton from '../components/BackButton'
 import LanguageToggle from '../components/LanguageToggle'
-import KioskFooter from '../components/KioskFooter'
 import { strings } from '../lib/i18n'
 import styles from './InfoDetail.module.css'
 
@@ -33,8 +32,6 @@ export default function InfoDetail({
       </header>
 
       <p className={styles.body}>{t.placeholderBody}</p>
-
-      <KioskFooter />
     </div>
   )
 }

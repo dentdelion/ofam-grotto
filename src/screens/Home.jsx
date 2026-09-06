@@ -1,4 +1,3 @@
-import KioskFooter from '../components/KioskFooter'
 import LanguageToggle from '../components/LanguageToggle'
 import { strings } from '../lib/i18n'
 import styles from './Home.module.css'
@@ -28,7 +27,6 @@ export default function Home({ onNavigate, lang, onToggleLang }) {
           {t.menuInfo}
         </button>
       </div>
-      <KioskFooter />
     </div>
   )
 }

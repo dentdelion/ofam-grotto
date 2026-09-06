@@ -61,6 +61,7 @@ function buildGalleries() {
         images,
         entry.year,
         { ua: entry.description_ua, en: entry.description_en },
+        { ua: entry.source_ua, en: entry.source_en },
       ))
     }
 
@@ -79,13 +80,14 @@ function buildGalleries() {
   return galleries
 }
 
-function makeSeries(folder, title, caption, images, year, description = { ua: '', en: '' }) {
+function makeSeries(folder, title, caption, images, year, description = { ua: '', en: '' }, source = { ua: '', en: '' }) {
   const sorted = [...images].sort((a, b) => a.file.localeCompare(b.file, undefined, { numeric: true }))
   return {
     folder,
     title,
     caption: { ua: caption.ua ?? '', en: caption.en ?? '' },
     description: { ua: description.ua ?? '', en: description.en ?? '' },
+    source: { ua: source.ua ?? '', en: source.en ?? '' },
     year: year ?? null,
     // Display images with their build-time pixel dimensions (for PhotoSwipe).
     images: sorted.map((img) => ({ src: img.src, width: img.width, height: img.height })),

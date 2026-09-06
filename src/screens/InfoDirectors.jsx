@@ -13,7 +13,7 @@ export default function InfoDirectors({ onNavigate, lang, onToggleLang }) {
   return (
     <div className={styles.screen}>
       <BackButton lang={lang} onClick={() => onNavigate('info')} style={{ top: '70px' }} />
-      <LanguageToggle lang={lang} onToggle={onToggleLang} style={{ top: '70px' }} />
+      <LanguageToggle lang={lang} onToggle={onToggleLang} />
 
       <header className={styles.header}>
         <h1 className={styles.title}>{t.infoDirectors}</h1>

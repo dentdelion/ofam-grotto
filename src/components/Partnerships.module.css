@@ -1,0 +1,61 @@
+/* Centered column on a solid black field, matching the 1080×1920 Figma
+   frame 2428:1748: UA credit → partner logos → EN credit. */
+.frame {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 76px;
+  padding: 0 230px;
+  background: var(--color-footer-bg);
+  text-align: center;
+}
+
+.credit {
+  width: 620px;
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--color-screen-text);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 84px;
+}
+
+/* The partner SVGs carry preserveAspectRatio="none" + width/height="100%",
+   so every box below must match its source viewBox ratio exactly or the
+   artwork stretches. */
+.pfruLogo {
+  width: 180px; /* PNG, 1188×432 */
+  height: 65px;
+}
+
+.museumLogo {
+  width: 96px; /* marazli-logo.svg, viewBox 97.0×66.9 */
+  height: 66px;
+}
+
+.marazliLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.marazliMark {
+  width: 42px; /* museum-logo-mask.svg, viewBox 48.0×47.5 */
+  height: 42px;
+}
+
+.marazliWordmark {
+  width: 96px; /* museum-logo-text.svg, viewBox 94.7×38.6 */
+  height: 39px;
+}

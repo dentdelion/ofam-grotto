@@ -4,7 +4,6 @@ import 'photoswipe/style.css'
 import { DESIGN_WIDTH, DESIGN_HEIGHT } from '../designSize'
 import BackButton from '../components/BackButton'
 import LanguageToggle from '../components/LanguageToggle'
-import KioskFooter from '../components/KioskFooter'
 import ViewerArrows from '../components/ViewerArrows'
 import ViewerBottomPanel from '../components/ViewerBottomPanel'
 import { strings } from './i18n'
@@ -12,10 +11,12 @@ import { strings } from './i18n'
 let active = null
 
 // The image sits in the space between the header and the bottom panel
-// (filmstrip + counter + caption) + footer. Keep TOP/BOTTOM in sync with
-// the 680px vertical-center hardcoded in ViewerArrows.module.css.
+// (filmstrip + counter + caption). The new design dropped the footer band,
+// so the panel now sits 40px off the bottom (see ViewerBottomPanel.module.css).
+// Keep TOP/BOTTOM in sync with the vertical-center hardcoded in
+// ViewerArrows.module.css.
 const TOP_PADDING = 240
-const BOTTOM_PADDING = 640 + 161 + 40
+const BOTTOM_PADDING = 640 + 40 + 40
 const SIDE_PADDING = 140
 
 // Full-screen album viewer, styled after Figma "Grotto screen" node
@@ -93,8 +94,6 @@ export function openSeriesLightbox(series, lang, onToggleLang, startIndex = 0) {
         refreshAll()
       },
     }))
-
-    mount('footer', KioskFooter, () => ({}))
 
     mount('arrows', ViewerArrows, () => ({
       labels: strings[currentLang],

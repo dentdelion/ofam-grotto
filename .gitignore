@@ -13,6 +13,12 @@ dist-ssr
 dev-dist
 *.local
 
+# Gallery scans (~1 GB of raw multi-megapixel originals). These are build
+# inputs, not something to keep in git history. They are published as a zip on
+# a GitHub Release and pulled in at build time by scripts/media-fetch.mjs.
+# content/photos.version pins which release. See HOW-TO-EDIT-CONTENT.md.
+/content/photos/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

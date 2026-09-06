@@ -1,4 +1,3 @@
-import KioskFooter from '../components/KioskFooter'
 import BgSlideshow from '../components/BgSlideshow'
 import bgSlideshowImages from '../lib/bgSlideshowImages'
 import styles from './Language.module.css'
@@ -18,7 +17,6 @@ export default function Language({ onSelect }) {
       <button className={`${styles.langButton} ${styles.en}`} onClick={() => onSelect('en')}>
         English
       </button>
-      <KioskFooter />
     </div>
   )
 }

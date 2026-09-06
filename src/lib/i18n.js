@@ -17,7 +17,7 @@ export const strings = {
     zoomOut: 'Зменшити',
     prevPhoto: 'Попереднє фото',
     nextPhoto: 'Наступне фото',
-    archiveLine: (year) => `${year} рік. Архів ОНХМ`,
+    archiveLine: (year, source) => (year != null ? `${year} рік. ${source}` : source),
   },
   en: {
     menuGallery: 'Gallery',
@@ -35,7 +35,7 @@ export const strings = {
     zoomOut: 'Zoom out',
     prevPhoto: 'Previous photo',
     nextPhoto: 'Next photo',
-    archiveLine: (year) => `${year}. ONHM Archive`,
+    archiveLine: (year, source) => (year != null ? `${year}. ${source}` : source),
     // English-only menu entry (Figma "ENG Grotto screen", node 2331:1412) —
     // no Ukrainian equivalent has been requested, so this key is EN-only.
     exploreExhibition: 'Explore the Exhibition',

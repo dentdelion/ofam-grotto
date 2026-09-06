@@ -20,6 +20,22 @@ npm run preview   # serve the production build locally
 
 Node is managed with nvm (`nvm use --lts`).
 
+### Gallery media
+
+`content/photos/` (~1 GB of raw scans) is **not** in git — it is a build input,
+published as a zip on a GitHub Release and pinned by `content/photos.version`.
+
+- `npm run dev` / `npm run build` run `scripts/media-fetch.mjs` first (`predev` /
+  `prebuild`), which downloads and unzips the pinned bundle. It's a no-op once the
+  local folder matches the pin, and it's cached between Netlify builds
+  (`netlify-plugin-cache` in `netlify.toml`).
+- `npm run media:publish [tag]` zips the current `content/photos/`, attaches it to
+  a new Release, and rewrites `content/photos.version`. Commit that file to deploy
+  the new photos. Needs the `gh` CLI logged in, or `GITHUB_TOKEN` with
+  "Contents: write".
+- A **private** repo also needs `GITHUB_TOKEN` ("Contents: read") in Netlify's
+  environment variables so the build can fetch the bundle.
+
 ## Design / pixel-perfect workflow
 
 The UI currently uses a **placeholder design**. To restyle it to match the Figma file:
@@ -57,7 +73,15 @@ The UI currently uses a **placeholder design**. To restyle it to match the Figma
 
 ## Deploying to Netlify
 
-1. Push this repo to GitHub/GitLab.
+1. Push this repo to GitHub.
 2. In Netlify: *Add new site → Import an existing project* → pick the repo.
    Build settings are read from `netlify.toml` automatically.
-3. Every `git push` republishes the site.
+3. **Publish the media bundle once** before the first deploy: `npm run
+   media:publish` (creates the Release named in `content/photos.version`), then
+   commit and push `content/photos.version`.
+4. **Private repo only:** add `GITHUB_TOKEN` (fine-grained token, "Contents:
+   read") under *Site settings → Environment variables* so the build can download
+   `content/photos/`.
+5. Every `git push` republishes the site. The photo bundle is only re-downloaded
+   when `content/photos.version` changes; otherwise it's served from the build
+   cache.

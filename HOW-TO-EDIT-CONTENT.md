@@ -76,18 +76,35 @@ the next one every 10 seconds. Those photos live in `content/language-bg/`.
 
 ## Publishing your changes
 
-The kiosk website updates when the project is pushed to Git — Netlify rebuilds and
-publishes automatically within a couple of minutes:
+The raw photo files in `content/photos/` are **not** stored in Git (there are over
+a gigabyte of them). They live in a "media bundle" attached to a GitHub Release,
+and the website build downloads that bundle automatically. So publishing photo
+changes is **two steps**:
 
 ```
-git add .
+npm run media:publish          # zips content/photos/ and uploads a new bundle
+git add content/photos.version  # this file now points at the new bundle
 git commit -m "Update gallery photos"
-git push
+git push                        # Netlify rebuilds with the new photos
 ```
+
+`npm run media:publish` needs permission to create a GitHub Release — either the
+[`gh` CLI](https://cli.github.com/) logged in (`gh auth login`), or a
+`GITHUB_TOKEN` environment variable with "Contents: write" on the repo.
+
+Text-only changes (editing `content/galleries.json`, adding chapters, etc.) don't
+touch photos, so for those the old one-step `git add . && git commit && git push`
+is still all you need.
 
 If you don't use Git, ask your developer about Netlify's drag-and-drop deploy
-(build the site with `npm run build`, then drag the `dist` folder onto the Netlify
-"Deploys" page).
+(run `npm run build` — it pulls the photo bundle first — then drag the `dist`
+folder onto the Netlify "Deploys" page).
+
+### Getting the photos onto your own machine
+
+A fresh clone has no `content/photos/` folder. The first `npm run dev` or
+`npm run build` downloads it automatically. To pull it on demand: `npm run
+media:fetch`. For a private repo you'll need `gh` logged in or `GITHUB_TOKEN` set.
 
 The kiosk browser picks up the new version on its next page load; it also caches
 everything locally so it keeps working if the internet drops.

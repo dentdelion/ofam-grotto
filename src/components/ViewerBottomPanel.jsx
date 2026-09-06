@@ -37,7 +37,7 @@ export default function ViewerBottomPanel({ lang, series, thumbs, currentIndex, 
       <div className={styles.caption}>
         <div className={styles.captionHead}>
           <p className={styles.title}>{series.title[lang]}</p>
-          {series.year != null && <p className={styles.subtitle}>{t.archiveLine(series.year)}</p>}
+          {series.source[lang] && <p className={styles.subtitle}>{t.archiveLine(series.year, series.source[lang])}</p>}
         </div>
         {series.description[lang] && <p className={styles.description}>{series.description[lang]}</p>}
       </div>

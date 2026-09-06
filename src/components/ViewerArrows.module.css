@@ -5,10 +5,11 @@
 }
 
 /* Vertically centered against the image area between the header and the
-   bottom panel — see TOP_PADDING/BOTTOM_PADDING in lib/lightbox.js. */
+   bottom panel — see TOP_PADDING/BOTTOM_PADDING in lib/lightbox.js.
+   (Image area is 240..1200 now that the footer band is gone.) */
 .arrowButton {
   position: absolute;
-  top: 680px;
+  top: 740px;
   transform: translateY(-50%);
   width: 72px;
   height: 72px;
