@@ -1,0 +1,96 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "Starting in the mid-1820s, Odesa began to develop rapidly as an administrative and cultural center. An elite class was emerging, along with a demand for prestigious private estates that would showcase their owners’ status. Land plots previously located outside the main development area gained new value. They now attracted developers not only as transportation routes but also for their panoramic views and architectural autonomy – that is, their distance from the hustle and bustle of the port. Land prices rose, and in 1823, the merchant Katolikov sold his land to Sofiia Pototska daughter, Countess Olga Pototska, who married (in 1824) Naryshkin."
+      ]
+    },
+    {
+      "type": "quote",
+      "paragraphs": [
+        "Olga Pototska (married name Naryshkina, 1802–1861) was a member of the renowned Polish magnate family of the Potockis, the daughter of Stanisław Szczęsny Potocki and Sofia Glavani (Potocka). Her mother, Sophia, came from a Greek family in Constantinople and became an influential aristocrat in Eastern Europe. Olga was born in Tulchyn and spent much of her life on the family estates in Right-Bank Ukraine and the Crimea. In 1824, she married Lev Naryshkin (1785–1846)—a Russian general from the influential noble Naryshkin family and a cousin of Governor-General Mykhailo Vorontsov. The couple lived primarily in Odesa, where Olga was a prominent figure in the city’s aristocratic circles, renowned for her beauty, active social life, and extensive connections in “high society.” After her husband’s death, she lived abroad. She died in Paris in 1861. "
+      ]
+    },
+    {
+      "type": "document",
+      "file": "petition-naryshkina-1828.jpg",
+      "width": 300,
+      "height": 469,
+      "caption": [
+        "Petition of Naryshkina, 1828",
+        "Digital copy of the document.",
+        "Source: State Archive of Odesa Oblast",
+        "",
+        "“On the site of the old house I purchased from the merchant Katolikov and other similar properties that came into my possession through the purchase and are located in the Greek Suburb in Block XLII at Nos. 493, 494, 496, and 497, I built a two-story house according to the plan and facade approved by the committee. Wishing now to have an open deed for the peaceful possession of the house I built and the adjacent plots, I humbly request that this committee consider the issue of issuing such a deed to me; I submit for your prudent consideration the deed of sale, executed at the Odesa Commercial Court on June 28, 1823, for the aforementioned old house and the land attached to it […].” "
+      ]
+    },
+    {
+      "type": "document",
+      "file": "torricelli-report-1828.jpg",
+      "width": 300,
+      "height": 488,
+      "caption": [
+        "Report of the Architect Torricelli, 1828",
+        "Digital copy of the document.",
+        "Source: State Archive of Odesa Oblast",
+        "",
+        "“To the Odesa Construction Committee. Architect Torricelli. Report. Pursuant to Committee Order No. 1156, I inspected the house of Major General Olga Naryshkina, née Countess Pototska, and determined that it was built according to the plan approved by the Committee."
+      ]
+    },
+    {
+      "type": "image",
+      "file": "torricelli-map-1828.jpg",
+      "width": 460,
+      "height": 360,
+      "caption": [
+        "On Torricelli’s 1828 map, Olga Naryshkina’s palace is already marked on Sofiivska Street in the Greek Suburb; many visitors who saw it would later write about its beauty. "
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "On January 28, 1850, the widow of Adjutant General Olga Stanislavovna Naryshkina sold the building to Stanislav Yosypovych Yurievich, a retired captain and descendant of a noble family, pursuant to a deed of sale executed at the Odesa District Court. He was a member of the Society of Fine Arts in Odesa. ",
+        "After Stanislav Yurievich’s death in Odesa on March 5, 1877, the property was inherited, according to his will, by his youngest son from his second marriage, Felix Yurievich. The Yurievich family’s financial situation was quite difficult, which forced them to sell the palace.",
+        "During the bombardment of Odesa by British and French ships during the Crimean War on April 10 (22), 1854, both the port and the city suffered from numerous cannonballs, which also struck residential buildings. The monument to the Duke de Richelieu, Prince Vorontsov’s house, the New Bazaar district, and other sites were damaged, as was the future museum palace, which was struck by four cannonballs."
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "image",
+      "file": "bombardment-odesa-1854.jpg",
+      "width": 460,
+      "height": 316,
+      "caption": [
+        "Bombardement van Odessa, 1854 [Bombardment of Odesa, 1854]",
+        "After a drawing by an unknown author. Printed by Max Biger, 1854–1855. ",
+        "Digital copy. ",
+        "Source: Rijksmuseum, Amsterdam"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "bossoli-coastline-1839.jpg",
+      "width": 460,
+      "height": 307,
+      "caption": [
+        "Veduta del litorale di Odessa con bagnanti [View of the Odesa Coastline with Bathers]",
+        "Carlo Bossoli, 1839. ",
+        "Digital copy. ",
+        "Source: Giorgio Baratti Collection, Milan"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "bossoli-naryshkin-palace-1839.jpg",
+      "width": 460,
+      "height": 307,
+      "caption": [
+        "Palazzo del generale Nariškin a Odessa [Naryshkin Palace in Odesa]",
+        "Carlo Bossoli, 1839.",
+        "Digital copy.",
+        "Source: Giorgio Baratti Collection, Milan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "The palace’s architecture embodies the finest traditions of early 19th-century Classicism. The building’s symmetrical composition is characterized by austere and harmonious elegance. In the center is a deep portico supported by six tall, slender columns with Corinthian capitals, crowned by a triangular pediment bearing the Yurievych coat of arms.",
+        "Above the colonnade is a relief frieze of acanthus leaves, and above the main entrance is a bas-relief panel depicting Cupid’s wedding procession and the Naryshkin coat of arms."
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "image",
+      "file": "portico-facade.jpg",
+      "width": 460,
+      "height": 389,
+      "caption": [
+        "Portico of the palace building facade ",
+        "Second half of the 20th century.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "yurievych-coat-of-arms.jpg",
+      "width": 460,
+      "height": 164,
+      "caption": [
+        "The Yuryevich coat of arms on the pediment of the museum building.",
+        "",
+        "A feature above the museum’s main entrance, where the Naryshkin coat of arms was probably once displayed."
+      ]
+    },
+    {
+      "type": "quote",
+      "paragraphs": [
+        "The coat of arms adorning the pediment of the museum building is associated with the Yurievych family, which used the Lubich family coat of arms (in Polish heraldry, every coat of arms has its own name and is used by more than one family). It is one of the most common noble coats of arms of the Polish-Lithuanian Commonwealth. Here is its description according to the information provided in armorials: “On a blue background – a silver horseshoe, with the ends pointing downward, and inside and at the top of this horseshoe – two silver cavalier crosses.”",
+        "According to research by S. Siedykh, another element of the building, located directly above the entrance door, points to the palace’s former owner. Two lions hold a shield crowned with a royal crown. The field of the shield is empty. The image that was there previously has likely been lost. However, by all indications, the existing elements suggest that this was a noble coat of arms of the Russian Empire used by the Naryshkin family. "
+      ],
+      "paragraphGap": 0
+    },
+    {
+      "type": "document",
+      "file": "boffo-report-1828.jpg",
+      "width": 300,
+      "height": 515,
+      "caption": [
+        "Report by Architect Boffo, 1828",
+        "Digital copy of the document.",
+        "Source: State Archives of the Odesa Region"
+      ]
+    },
+    {
+      "type": "quote",
+      "paragraphs": [
+        "As for the name of the palace’s architect, researchers’ opinions differ. According to Mykhailo Rashkovetskyi, the building was designed by the Italian architect Francesco Carlo Boffo (known as Franz Karlovych Boffo) – the designer of many of Odesa’s landmarks, including the Prymorsky (Potemkin) Stairs, the Vorontsov Palace, the Old Stock Exchange building (now the City Council), and others. This version is based primarily on a report by Boffo himself: “To the Odesa Committee. Architect Boffo. Report. In accordance with Committee Directive No. 1861, I have the honor to report that the house belonging to Major General’s wife Olga Naryshkina was built on a site located in the Greek Suburb <…>, which measures: fifty-five sazhens along the street, sixty sazhens along the seashore, and eighty sazhens and two arshins across from the street to the shore. I have personally measured these dimensions on site, and they represent the exact boundaries that existed at the time these plots were purchased from the merchant Katolikov… and within those very same boundaries, without the slightest encroachment, I have, on behalf of Mrs. Naryshkina, carried out the construction. <…> I foresee no obstacles to the approval of the entire allocated site on behalf of Mrs. Naryshkina. Architect Boffo. No. 61, June 6, 1828.”"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "The smooth walls of the single-story wings adjoining the central building are adorned with pilasters of the Ionic and Doric orders, and the wall surfaces are rusticated. The facades are modestly decorated with moldings, cornices, and window frames.",
+        "The single-story sections of the facade facing the sea are divided by half-columns with Corinthian capitals. On the northern facade, facing the sea, there was a double staircase leading from the grand hall to the garden. The garden, planted by the merchant Katolikov, stretched all the way to the seashore. Prymorska Street did not yet exist at that time. "
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "image",
+      "file": "spring-exhibition-1987.jpg",
+      "width": 460,
+      "height": 301,
+      "caption": [
+        "Spring Exhibition of Works by Odessa Artists",
+        "Ivan Cherevatenko, 1987.",
+        "From the archives of the Odessa National Museum of Fine Arts"
+      ]
+    },
+    {
+      "type": "document",
+      "file": "entrance-exhibition-hall.jpg",
+      "width": 300,
+      "height": 394,
+      "caption": [
+        "Entrance to the exhibition hall",
+        "Unknown author, undated. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "document",
+      "file": "museum-building-fragment.jpg",
+      "width": 300,
+      "height": 398,
+      "caption": [
+        "Fragment of the museum building",
+        "Unknown author, undated. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "The palace’s interior decoration was no less luxurious. The interior layout followed an enfilade design. The state rooms were located on the first floor. They branched off to both sides of the main lobby and converged again in the central hall. Directly from the lobby, a door led to the ceremonial ballroom (now Hall No. 7), where the inlaid parquet floor, composed of pieces of various types of wood (intarsia), created a magnificent pattern. The ceiling and moldings were adorned with delicate bas-reliefs decorated with gold leaf. The ceiling featured cupids holding garlands; the frieze depicted cupids supporting gilded vases amid acanthus leaves."
+      ]
+    },
+    {
+      "type": "document",
+      "file": "enfilade-interior.jpg",
+      "width": 300,
+      "height": 451,
+      "caption": [
+        "Interior of the enfilade of halls",
+        "Unknown author, late 1920s–early 1930s.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "ballroom-ceiling-2023.jpg",
+      "width": 460,
+      "height": 261,
+      "caption": [
+        "Ceiling of the ballroom, 2023",
+        "3D scanning and visualization by Pixelated Realities"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "ballroom-inlaid-floor-1965.jpg",
+      "width": 460,
+      "height": 306,
+      "caption": [
+        "Fragment of the inlaid floor in the ballroom, 1965",
+        "Photographic documentation by the Republican Special Scientific Restoration Production Workshops.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "To the right was a smaller parlor (Hall No. 6), with an Empire-style painted ceiling and a stucco cornice.",
+        "A door led from it to a covered gallery-orangery (Hall No. 5), from which a staircase led down to the garden on the sea side. ",
+        "To the left of the ceremonial hall was a parlor with an Empire-style painted ceiling: in the center was what appeared to be a coffered circle, and along the perimeter were illusory relief figures depicting classical scenes. ",
+        "Next was a room (Hall No. 9) that ended in a semicircle, which was likely the dining room. It offered a beautiful view of the sea. The walls of the room were decorated with half-columns and pilasters of the Corinthian order, topped by a wide cornice. "
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "image",
+      "file": "gallery-greenhouse-1947.jpg",
+      "width": 460,
+      "height": 334,
+      "caption": [
+        "Covered gallery-greenhouse (current hall No. 5), 1947",
+        "Unknown author. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "empire-ceiling-hall6-1965.jpg",
+      "width": 460,
+      "height": 307,
+      "caption": [
+        "Fragment of the Empire-style ceiling painting (current hall No. 6), 1965",
+        "Photographic documentation by the Republican Special Scientific Restoration Production Workshops.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "document",
+      "file": "hall-9-1920s.jpg",
+      "width": 300,
+      "height": 420,
+      "caption": [
+        "Hall No. 9, late 1920s–early 1930s",
+        "Unknown author. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "The upper floor was reserved for living quarters and was connected to the lower apartments by an internal wooden staircase, illuminated by a large Gothic window with seven stained-glass panes. ",
+        "According to some studies, these stained-glass windows were of Swiss origin—a distinctive form of glass painting associated with Swiss heraldry. These so-called “cabinet stained-glass windows” were commissioned for secular buildings and the homes of wealthy townspeople.",
+        "On the second floor, the room decor was simpler and the ceiling lower; however, the floor drew attention, as it was tiled with designs depicting ancient vases, with patterns that were almost never repeated. Beneath the building was a large basement containing storage and utility rooms. "
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "document",
+      "file": "gothic-stained-glass-1929.jpg",
+      "width": 300,
+      "height": 485,
+      "caption": [
+        "Gothic window with stained glass (Odesa Folk Art Museum), 1929",
+        "Unknown author. ",
+        "Source: Odesa Regional History Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "hall-21-1920s.jpg",
+      "width": 460,
+      "height": 330,
+      "caption": [
+        "Hall No. 21 (second floor), late 1920s–early 1930s",
+        "Unknown author. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "tiled-floor-hall21-2025.jpg",
+      "width": 460,
+      "height": 298,
+      "caption": [
+        "Tiled floor detail in Hall No. 21, 2025",
+        "Photo: Ivan Strahov"
+      ]
+    }
+  ]
+}

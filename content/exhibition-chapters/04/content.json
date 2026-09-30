@@ -1,0 +1,57 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "During the Soviet period, the complex of the former estate underwent a series of renovations to adapt it to the needs of a museum. The buildings were reconstructed, expanded, connected to one another, and equipped with engineering infrastructure that met the requirements of the time. As a result of these transformations, a cohesive architectural complex was formed, adapted for use as a museum."
+      ]
+    },
+    {
+      "type": "image",
+      "file": "may-day-banner.jpg",
+      "width": 460,
+      "height": 343,
+      "caption": [
+        "Soviet banner reading “Long Live May 1!” on the museum fence",
+        "Second half of the 20th century.",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "facade-renovation-staff-1931.jpg",
+      "width": 460,
+      "height": 324,
+      "caption": [
+        "Museum staff during the renovation of the building’s façade. Among them is the museum director Tzvi Emskyi–Mohylevskyi (third from the right), 1931",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "scaffolding-restoration-1931.jpg",
+      "width": 460,
+      "height": 341,
+      "caption": [
+        "Workers on wooden scaffolding during the restoration of the museum facade, 1931",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "suvorov-statue-1930s.jpg",
+      "width": 460,
+      "height": 339,
+      "caption": [
+        "Statue of Alexander Suvorov in front of the museum building, 1930s",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum",
+        "",
+        "In 1913, Odesa sculptor Borys Eduards created an equestrian statue of Olexandr Suvorov for a memorial in Romania commemorating the 120th anniversary of the victory of Russian and Austrian troops over the Turks. In the 1930s, a copy of it was installed in the center of the lawn in front of the museum building. In 1945, the sculpture was moved to Izmail. Photo from the 1930s, ONFAM archives."
+      ]
+    }
+  ]
+}

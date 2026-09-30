@@ -1,0 +1,31 @@
+{
+  "bodyHeight": 1364,
+  "blocks": [
+    {
+      "type": "credits",
+      "lines": [
+        { "text": "This re-exhibition of the grotto at the Odesa National Fine Arts Museum is supported by the Partnership Fund for a Resilient Ukraine (PFRU), funded by aid from the governments of Canada, Estonia, Finland, Norway, Sweden, Switzerland, and the United Kingdom." },
+        { "text": "This project was developed by:", "leadingBreak": true },
+        { "label": "Curatorial team:", "value": "Valeriia Nasedkina, Volodymyr Chyhrynets, Alina Odynets" },
+        { "blank": true },
+        { "label": "Based on research into the museum’s history by:", "value": "Olena Bukatar, as well as Yuliia Tomashevska, Volodymyr Damaskin, Halina Simchenko, Olha Dzeryk, Svitlana Ostapova, Tetiana Tokarchuk, Mykola Lukin, and Anastasiia Yavtushenko" },
+        { "blank": true },
+        { "label": "Scientific advisors:", "value": "Olena Bukatar, Mykhailo Rashkovetskyi" },
+        { "label": "Managers:", "value": "Olena Zoz, Valerii Korshunov" },
+        { "label": "Financial support:", "value": "Neonila Khorzhevska, Maryna Vytoporenko " },
+        { "blank": true },
+        { "label": "Exhibition Architecture and Design:", "value": "MNPL Art and Architecture Group" },
+        { "label": "Design:", "value": "Alina Odynets" },
+        { "label": "3D Modeling and Printing:", "value": "Dmytro Dokunov" },
+        { "label": "Artists:", "value": "Dmytro Erlikh  and Illia Petrov" },
+        { "label": "Interactive Development:", "value": "Yelyzaveta Blyumska" },
+        { "label": "External Communications:", "value": "Kateryna Kharchenko" },
+        { "label": "Editor:", "value": "Anna Lishchynska" },
+        { "label": "Translation:", "value": "Serhii Havva" },
+        { "blank": true },
+        { "label": "Special thanks to:", "value": "Kateryna Kulai, Oleksandra Kovalchuk, Ivan Strakhov, State Archives of the Odesa Region, Odesa National Scientific Library, The Odesa Museum of Regional History, “Odesa History” online resource, Giorgio Baratti Antiquario (Milan, Italy), Seminar of Art History, University of Hamburg (Germany)" },
+        { "blank": true }
+      ]
+    }
+  ]
+}

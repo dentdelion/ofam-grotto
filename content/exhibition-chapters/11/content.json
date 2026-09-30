@@ -1,0 +1,53 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "There was almost no construction lumber in Odesa. Wood was delivered by sea (as we recall from the merchant Katolikov). But in the 19th century, virtually the entire city was built using local shell rock deposits. Since the shell rock was quarried directly “from beneath the construction site,” underground passages — the so-called catacombs — were formed. In the same way, during the palace’s construction, its underground passages and cellars with vaulted ceilings came into being. ",
+        "The design of the grotto was directly linked to the organization of the “Home Improvement Exhibition.” Part of the basement, based on a design by Oleksandr Bernardatstsi, was transformed into a walk-through grotto featuring a fountain and waterfall, electric lighting, decorative arcades, and a ceiling imitating a cave vault. The grotto served as the compositional centerpiece of the entire exhibition, and at the entrance to the cave, visitors were greeted by sculptures of Dante and Virgil."
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "quote",
+      "paragraphs": [
+        "In the ‘Odessa Listok’, a popular newspaper of the time, we find the following mention of the grotto’s opening:",
+        "‘In a few days’ time, the grotto and an underground gallery leading to the lower garden will open to the public. The entrance to the grotto is via the main building. […] In the first section of the gallery, a side shaft has been fitted out for stone-cutting and mining work: it is currently closed. Further on, the gallery takes a bend, and you have to pass beneath a large fountain: here, a small flight of steps leads to the ‘laboratory’, which is used to illuminate the fountain in the garden with multicoloured lights; behind the fountain is Romanov’s electrical pavilion, the roar of the gas engines echoing loudly through the gallery. Another half a minute – and you’re out in the open air, on the platform of the exemplary scaffolding near Fanconi. The artist O. F. Bilyi and the sculptor M. L. Molinari worked on the design and decoration of the grotto according to the plans of the architect O. O. Bernardazzi.”"
+      ],
+      "paragraphGap": 0
+    },
+    {
+      "type": "image",
+      "file": "in-the-grotto-1930s.jpg",
+      "width": 460,
+      "height": 315,
+      "caption": [
+        "In the grotto",
+        "The 1930s.",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "document",
+      "file": "blake-dante-virgil.jpg",
+      "width": 300,
+      "height": 427,
+      "caption": [
+        "‘Dante and Virgil at the Gates of Hell’",
+        "William Blake, 1820s.",
+        "Digital copy.",
+        "Open sources"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "The architect drew inspiration from motifs in the poem *The Divine Comedy* by the Italian poet Dante Alighieri. As reported by the press at the time, in the upper part of the grotto, on a rocky ledge, visitors were greeted by life-size sculptures of Dante and Virgil. To enter the underground chamber, visitors to the grotto had to pass under an arch bearing an inscription illuminated from within by a red flame: *Lasciate ogni speranza, voi ch’entrate* (‘Abandon all hope, ye who enter here’) — the line above the gate of Hell in the first part of the poem.",
+        "The grotto formed the compositional centrepiece of the entire exhibition and proved very popular with the public.",
+        "The ‘Home Improvement Exhibition’ came to an end; the exhibition and its pavilions were dismantled, and the grotto was converted into a boiler room and coal store. Over time, the water supply and drainage systems for the waterfall and pool fell into disrepair, and the lighting was damaged. As early as the 1990s, restoration work was carried out on the grotto. As part of this work, the historic appearance of the artificial cave was restored, the vaulting was reinforced and the lighting was repaired, enabling the grotto to be transformed into a permanent tourist attraction."
+      ],
+      "paragraphGap": 14
+    }
+  ]
+}

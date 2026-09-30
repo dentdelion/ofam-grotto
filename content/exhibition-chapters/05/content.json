@@ -1,0 +1,59 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "During World War II, the museum building was damaged, and the museum collection suffered significant losses. ",
+        "According to research by Liudmila Yeromina, 3,414 exhibits were removed from the collection during the Romanian occupation, including a significant number of valuable antique pieces of furniture. A 1942 document regarding the transfer of museum items to the Romanian administration has also been preserved, specifically stained-glass windows “depicting saints.” However, available sources do not provide sufficient grounds to unequivocally link this document to the stained-glass windows above the staircase to the second floor that were lost during World War II."
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "image",
+      "file": "facade-romanian-occupation-1942.jpg",
+      "width": 460,
+      "height": 460,
+      "caption": [
+        "Museum façade during the Romanian occupation, 1942/1943",
+        "Digital copy.",
+        "Source: Legacy Kurt Wilhelm-Kästner, Historic Image Archives, Seminar of Art History, University of Hamburg"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "damaged-fence-postwar.jpg",
+      "width": 460,
+      "height": 352,
+      "caption": [
+        "Damaged museum fence in the post-war years",
+        "Second half of the 20th century.",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "luftwaffe-aerial-1944.jpg",
+      "width": 460,
+      "height": 465,
+      "caption": [
+        "Odesa in an aerial photograph taken by Luftwaffe pilots, 1944",
+        "Digital copy.",
+        "Source: Odesa History online resource"
+      ]
+    },
+    {
+      "type": "document",
+      "file": "column-restoration-1947.jpg",
+      "width": 300,
+      "height": 437,
+      "caption": [
+        "Post-war restoration of the damaged eastern column of the museum faсade, 1947",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum",
+        "",
+        "In 1944, an explosion in the Port of Odesa damaged the eastern column of the south portal, the corner of the pediment, and the interiors. During the 1947 restoration, the stucco decoration was restored, and the column and pediment were reconstructed."
+      ]
+    }
+  ]
+}

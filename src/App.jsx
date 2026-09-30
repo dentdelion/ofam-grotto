@@ -72,6 +72,7 @@ export default function App() {
           chapterIndex={chapterIndex}
           content={chapterContent[chapterIndex]}
           onNavigate={setScreen}
+          onPrev={() => selectChapter(chapterIndex - 1)}
           onNext={() => selectChapter(chapterIndex + 1)}
         />
       )}

@@ -1,0 +1,55 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "For the duration of the exhibition, the basement room with a vaulted ceiling became the brewery’s exhibition space and was named “Yenni’s Beer Hall.” The ceiling of the temporary brewery was decorated with light, graphic designs. These illustrations depicted folk jokes and proverbs and were complemented by German-language inscriptions in red Gothic script. ",
+        "The opening was marked by treating all guests to beer. The entire hall was filled with barrels and decorated with garlands of greenery and flags. Today, this venue is called “The Yellow Giants.”"
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "image",
+      "file": "yenni-advertisement.jpg",
+      "width": 460,
+      "height": 338,
+      "caption": [
+        "Advertisement for the firm ‘Yenni & Co’ in Odessa, early 20th century.",
+        "Digital copy.",
+        "Open sources",
+        "",
+        "The firm Yenni & Co. was a fairly large brewing company with production facilities in Kyiv and Odesa. Their beer was exported both within the empire of that time and beyond its borders."
+      ]
+    },
+    {
+      "type": "image",
+      "file": "ceiling-mural-he-does-well.jpg",
+      "width": 460,
+      "height": 468,
+      "caption": [
+        "A fragment of the ceiling mural at the Yellow Giants",
+        "Translation of the inscription: “He’s doing well!”"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "ceiling-mural-beer-women-songs.jpg",
+      "width": 460,
+      "height": 468,
+      "caption": [
+        "A fragment of the ceiling mural at the Yellow Giants",
+        "Translation of the inscription: “Whoever doesn’t love beer, women, and songs remains a fool. Live long.”"
+      ]
+    },
+    {
+      "type": "document",
+      "file": "ceiling-mural-be-careful.jpg",
+      "width": 300,
+      "height": 417,
+      "caption": [
+        "A fragment of the ceiling mural at the Yellow Giants",
+        "Translation of the inscription: “Be careful who you trust”."
+      ]
+    }
+  ]
+}

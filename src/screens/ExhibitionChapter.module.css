@@ -4,14 +4,18 @@
   height: 100%;
   background: var(--color-paper);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Header (Figma node 2400:1458): fixed, non-scrolling, 1080×352. */
+/* Header (Figma node 2400:1458): fixed, non-scrolling, 1080×352 — but 398 when
+   the chapter title wraps to two lines (chapter 7, node 2498:670). Laid out in
+   flow rather than absolutely so the body below shifts with it; Figma keeps a
+   constant 80px from the title rule to the body either way. */
 .titleRow {
-  position: absolute;
-  left: 80px;
-  top: 210px;
+  margin: 210px 0 0 80px;
   width: 920px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +33,17 @@
   color: var(--color-ink-soft);
 }
 
-.nextButton {
+/* Chapter paging arrows (Figma node 2442:2476) — previous first, next last;
+   either is omitted at the ends of the chapter list. */
+.arrows {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: flex-end;
+}
+
+.arrowButton {
   flex-shrink: 0;
   width: 31px;
   height: 23px;
@@ -44,14 +58,19 @@
   transform: rotate(90deg);
 }
 
+.prevIcon {
+  width: 23px;
+  height: 31px;
+  transform: rotate(-90deg);
+}
+
 /* Body (Figma node 2428:2286): fixed viewport, scrolls internally — content
    height varies per chapter. */
 .body {
-  position: absolute;
-  left: 80px;
-  top: 352px;
+  margin: 80px 0 0 80px;
   width: 920px;
   height: 1200px;
+  flex-shrink: 0;
   padding: 0 100px;
   display: flex;
   flex-direction: column;
@@ -81,9 +100,12 @@
   margin: 0;
 }
 
+/* Paragraph spacing inside one Figma text node varies per chapter (0 in
+   chapter 1, 14px in chapter 2) — blocks set --paragraph-gap when it isn't
+   the default. */
 .quote p + p,
 .paragraph p + p {
-  margin-top: 1em;
+  margin-top: var(--paragraph-gap, 1em);
 }
 
 .figure {
@@ -93,6 +115,47 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+
+/* Credits (Figma node 2500:952): one block of semibold lines 14px apart, each
+   role label followed by its names in the regular weight. Unlike every other
+   chapter this list carries its own spacing rather than the body's 60px gap. */
+.credits {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-ink-soft);
+  text-align: justify;
+}
+
+.credits p {
+  margin: 0 0 14px;
+}
+
+.credits p:last-child {
+  margin-bottom: 0;
+}
+
+.creditsValue {
+  font-weight: 400;
+}
+
+/* Archive document (Figma node 2457:2508): scan left, caption right, both
+   sitting on the same baseline. */
+.document {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.documentCaption {
+  flex: 1 0 0;
+  min-width: 0;
+  width: auto;
 }
 
 .imageBox {

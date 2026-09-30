@@ -1,0 +1,87 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "From the mid-1960s through the 1970s, the museum and the surrounding area were partially reconstructed in accordance with the principles of Soviet urban planning. A promenade was created, connecting the museum area with Prymorskyi Boulevard; the slopes were stabilized; landscaping was improved; and new public spaces were developed. All work was carried out according to a design by the Republican Special Scientific and Restoration Production Workshops of Kyiv."
+      ]
+    },
+    {
+      "type": "image",
+      "file": "rear-facade-1965.jpg",
+      "width": 460,
+      "height": 411,
+      "caption": [
+        "Rear facade of the museum facing the boulevard, 1965",
+        "Photographic documentation by the Republican Special Scientific Restoration Production Workshops.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "museum-in-winter-1964.jpg",
+      "width": 460,
+      "height": 420,
+      "caption": [
+        "Museum in Winter",
+        "Eduard Pavlov, 1964. ",
+        "Digital copy. ",
+        "Collection of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "landscaping-project-1975.jpg",
+      "width": 460,
+      "height": 309,
+      "caption": [
+        "Project for the vertical layout and landscaping of the architectural monument, Fine Arts Museum of the City of Odesa, 1975",
+        "Authors: B. Shyriaiev; L. Mandelblat; Z. Myronchenko; T. Meretukova.",
+        "Digital copy of the document. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "quote",
+      "paragraphs": [
+        "During the renovation, it became necessary to dismantle the courtyard outhouse located in the archway on the left, between the former carriage house (which by then had become a utility building facing Sofiivska Street) and the reading room.",
+        "The outhouse was removed, and a new facility was built adjacent to the main building on the right and connected to the city sewer system. The entrance to the new restroom was created from the small courtyard. An archway was built, and the entrance area to the former reading room was connected to the service building via a covered passageway. Thus, thanks to the creation of this much-needed additional space for the museum, three exhibition halls (Nos. 16, 17, and 18) were established."
+      ],
+      "paragraphGap": 0
+    },
+    {
+      "type": "image",
+      "file": "northwestern-facade-open-arch-1965.jpg",
+      "width": 460,
+      "height": 318,
+      "caption": [
+        "Northwestern façade of the museum with the open arch and part of the former reading room building, 1965",
+        "Photographic documentation by the Republican Special Scientific Restoration Production Workshops. ",
+        "Digital copy. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "northwestern-facade-sealed-arch-2020.jpg",
+      "width": 460,
+      "height": 321,
+      "caption": [
+        "Northwestern facade of the museum with the sealed arch, 2020",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "sewer-scheme-1965.jpg",
+      "width": 460,
+      "height": 297,
+      "caption": [
+        "Scheme of the city sewer system on Korolenko (Sofiivska) Street near the museum building, 1965",
+        "Digital copy of the document. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    }
+  ]
+}

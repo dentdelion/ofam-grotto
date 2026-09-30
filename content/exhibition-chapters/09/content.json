@@ -1,0 +1,93 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "In 1895, the Odesa branch of the Imperial Russian Technical Society organized the “Home Improvement Exhibition” at the palace. The exhibition occupied the entire palace building, as well as the upper and lower gardens behind it; in addition, temporary street pavilions were erected. Over the course of its 120-day run, the exhibition was visited by more than 185,000 people. ",
+        "Exhibitions of technical innovations were very popular during the period of industrialization. At that time, exhibiting at such events served several purposes simultaneously: it served as advertising for manufacturers, an opportunity to win awards, and a platform for exchanging innovations among manufacturers. The exhibition was particularly relevant for Odesa during the 19th-century construction boom, as it promoted the idea of hygienic, functional, and aesthetically pleasing housing."
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "document",
+      "file": "exhibition-catalogue-1895.jpg",
+      "width": 300,
+      "height": 465,
+      "caption": [
+        "Catalogue of the Home Improvement Exhibition, 1895",
+        "Digital copy of the document.",
+        "Source: Archive of the Odessa National Scientific Library"
+      ]
+    },
+    {
+      "type": "document",
+      "file": "exhibition-plan-gardens-1895.jpg",
+      "width": 300,
+      "height": 398,
+      "caption": [
+        "Plan of the ‘Home Improvement Exhibition’ on the grounds of the gardens, 1895",
+        "Digital copy.",
+        "Source: archives of the Odesa National Scientific Library"
+      ]
+    },
+    {
+      "type": "document",
+      "file": "exhibition-floor-plans-1895.jpg",
+      "width": 300,
+      "height": 398,
+      "caption": [
+        "Floor plans of the first and second floors of the ‘Home Improvement Exhibition’, 1895",
+        "Digital copy.",
+        "Source: archives of the Odesa National Scientific Library"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "The “Home Improvement Exhibition” was a major event for the city and differed from exhibitions in other cities of the Russian Empire at that time. Newspapers criticized the Odesa exhibition for displaying works of art, decorative items, and plants, since such exhibitions typically focused exclusively on technological innovations.",
+        "It would be difficult to single out a specific theme or idea for each individual hall. For example, in the largest hall on the second floor, alongside Borys Edwards’ bronze sculpture “Shurka,” a grand piano, samples of asphalt, various types of wallpaper, stools, and bookcases were on display. The outdoor section of the exhibition featured a laboratory for testing the strength of materials, restaurants and cafes, separate pavilions for local manufacturers, and an illuminated fountain. On the exhibition plan and in Volodymyr Naake’s drawing, you can see the staircase on the north facade that existed at the time, leading from the palace’s ballroom to the garden."
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "document",
+      "file": "shurka-edwards-1896.jpg",
+      "width": 300,
+      "height": 445,
+      "caption": [
+        "“Shurka”",
+        "Boris Edwards, 1896.",
+        "Digital copy.",
+        "From the ONHM collection",
+        "",
+        "The “Home Improvement Exhibition” featured Borys Eduards’ bronze sculpture “Shurka.” A later marble version of this work is preserved in the museum’s collection."
+      ]
+    },
+    {
+      "type": "image",
+      "file": "naake-north-facade-1895.jpg",
+      "width": 460,
+      "height": 286,
+      "caption": [
+        "Drawing of the museum’s northern façade with the steps leading down to the garden during the ‘Home Improvement Exhibition’",
+        "Vladimir Naake, 1895.",
+        "Digital copy.",
+        "Source: the newspaper ‘Odeski Novyny’ from the archives of the Odessa National Scientific Library"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "sea-facade-1947.jpg",
+      "width": 460,
+      "height": 325,
+      "caption": [
+        "The façade facing the sea",
+        "The spot where the steps leading to the garden used to be.",
+        "Unknown artist, 1947.",
+        "From the ONFAM archive",
+        "",
+        "On the northern façade, facing the sea, there was a double staircase leading from the state hall to the garden. The garden, planted by the merchant Katolikov, stretched down to the seashore."
+      ]
+    }
+  ]
+}

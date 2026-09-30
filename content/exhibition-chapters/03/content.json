@@ -1,0 +1,108 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "In 1888, Odesa’s mayor and patron of the arts Hryhorii Marazli purchased a manor house. Later, on March 11, 1892, Marazli donated it to the city, though he retained part of the land and the buildings on it for himself. ",
+        "The donated portion of the palace was to be used for the Museum of Fine Arts, on the condition that, in addition to the museum, space in the palace would also be allocated for a number of other museums, as well as for the Odesa branch of the Imperial Russian Technical Society. It was the latter that would later host several exhibitions, including the “Home Economics Exhibition” of 1895. The idea of combining educational, cultural, and technical initiatives in a single space was, for its time, quite progressive and bold. "
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "document",
+      "file": "marazli-portrait-1896.jpg",
+      "width": 300,
+      "height": 372,
+      "caption": [
+        "Portrait of Hryhorii Marazli",
+        "Ivan Kartsov, 1896.",
+        "Digital copy.",
+        "From the ONFAM collection",
+        "",
+        "Hryhorii Hryhorovych Marazli (1831–1907) was a public figure, patron of the arts, and mayor. Marazli’s patronage projects reflected a pan-European trend of that period."
+      ]
+    },
+    {
+      "type": "document",
+      "file": "dieterikhs-plan-1892.jpg",
+      "width": 300,
+      "height": 491,
+      "caption": [
+        "Dieterikhs Plan, 1892",
+        "Digital copy of the document.",
+        "Source: State Archive of Odesa Oblast",
+        "",
+        "On the floor plan, the palace building is divided into several sections — those that Marazli donated to the city and those he retained for himself. To the right on the plan is a building — part of the Katolikov House — that was not included in Marazli’s donation and was already being used as a residence at that time. Currently, the ONFAM administration is located here."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "In the period between Hryhorii Marazli’s transfer of the palace to the city and the museum’s opening, 11 exhibitions had already been held in the palace building, and work had begun on preparing the halls for the museum’s needs. The work on setting up the museum was supervised by Professor Pavlovskyi, artists Kyriak Kostandi and Tit Dvornikov, and the museum’s first director, Volodymyr Kurovskyi. ",
+        "On November 6, 1899, the grand opening of the City Museum of Fine Arts took place. Between 1899 and the 1920s, the foundation of the museum’s collection was established, and regular exhibition activities began."
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "image",
+      "file": "museum-plan-1890s.jpg",
+      "width": 460,
+      "height": 542,
+      "caption": [
+        "Redrawn after: ",
+        "Museum plan, 1890s",
+        "",
+        "The halls used as exhibition and residential spaces as of 1899 are marked. The current numbering of the halls is provided. At the time of its opening, the museum occupied seven halls of the palace. The remaining museum premises served as residential spaces; at the time of the opening, the chief custodian and the doorman lived in the museum building."
+      ]
+    },
+    {
+      "type": "image",
+      "file": "hall-26-second-floor-1900.jpg",
+      "width": 460,
+      "height": 357,
+      "caption": [
+        "Second-floor Hall (current Hall No. 26)",
+        "Adolf Horstein, 1900. ",
+        "Digital copy. ",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "hall-7-first-floor-1900.jpg",
+      "width": 460,
+      "height": 351,
+      "caption": [
+        "First-floor hall (current Hall No. 7)",
+        "Adolf Horstein, 1900.",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "museum-facade-1900.jpg",
+      "width": 460,
+      "height": 343,
+      "crop": { "width": "103.46%", "height": "103.96%", "left": "-1.75%", "top": "-1.84%" },
+      "caption": [
+        "Museum façade",
+        "Adolf Horstein, 1900.",
+        "Digital copy.",
+        "Archive of the Odesa National Fine Arts Museum"
+      ]
+    },
+    {
+      "type": "image",
+      "file": "museum-courtyard-dvornikov.jpg",
+      "width": 460,
+      "height": 343,
+      "caption": [
+        "Museum courtyard",
+        "Tyt Dvornikov, undated. ",
+        "Digital copy. ",
+        "Collection of the Odesa National Fine Arts Museum"
+      ]
+    }
+  ]
+}

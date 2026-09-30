@@ -1,0 +1,50 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "On the evening of November 5, 2023, Russia launched a missile strike on Odesa: the missile struck about fifty meters from the Odesa National Fine Arts Museum. A crater formed in front of the museum’s gates; the shock wave damaged the administrative building and the museum’s facade, shattered windows and doors, and damaged the exhibition halls. The total area of damage amounts to nearly 1,400 square meters. The following day, November 6, the museum was set to celebrate its 124th anniversary."
+      ]
+    },
+    {
+      "type": "image",
+      "images": [
+        { "file": "aftermath-01.jpg", "width": 460, "height": 307 },
+        { "file": "aftermath-02.jpg", "width": 460, "height": 307 },
+        { "file": "aftermath-03.jpg", "width": 460, "height": 307 },
+        { "file": "aftermath-04.jpg", "width": 460, "height": 307 },
+        { "file": "aftermath-05.jpg", "width": 460, "height": 307 },
+        { "file": "aftermath-06.jpg", "width": 460, "height": 307 }
+      ],
+      "caption": [
+        "Dealing with the aftermath of a missile strike",
+        "2024.",
+        "Photo: Ivan Strakhov"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "paragraphs": [
+        "In 2024, with funding from the international ALIPH Foundation and co-financing from the European Union, urgent emergency repair work was carried out on the museum’s main and administrative buildings. In the main building, the facade was repaired along with the columns of the entrance area. The surviving decorative elements were dismantled for future reconstruction. Additionally, the ceilings in the damaged exhibition halls on the first and second floors were reinforced. The non-profit organization Museum for Change served as the aid operator.",
+        "These urgent emergency repairs helped minimize the further impact of vibrations and shock waves. The museum is currently awaiting restoration, which has been postponed due to Russia’s full-scale invasion of Ukraine."
+      ],
+      "paragraphGap": 14
+    },
+    {
+      "type": "image",
+      "images": [
+        { "file": "documenting-01.jpg", "width": 460, "height": 306 },
+        { "file": "documenting-02.jpg", "width": 460, "height": 307 },
+        { "file": "documenting-03.jpg", "width": 460, "height": 306 },
+        { "file": "documenting-04.jpg", "width": 460, "height": 307 },
+        { "file": "documenting-05.jpg", "width": 460, "height": 306 },
+        { "file": "documenting-06.jpg", "width": 460, "height": 307 }
+      ],
+      "caption": [
+        "Documenting the aftermath of a missile strike",
+        "2023.",
+        "Photo: Ivan Strakhov"
+      ]
+    }
+  ]
+}
