@@ -124,10 +124,20 @@ export function openSeriesLightbox(series, lang, onToggleLang, startIndex = 0) {
   active = lightbox
 }
 
+// The +/- buttons used to toggle between "fit" and PhotoSwipe's single
+// "secondary" level, which on a 4000px map lands at 3x fit and leaves the
+// remaining native detail reachable only by pinching. Step through the range
+// instead, so repeated taps walk all the way to zoomLevels.max (native pixels
+// for the maps) and back down to fit.
+const ZOOM_FACTOR = 1.6
+
 function zoomStep(pswp, direction) {
   const slide = pswp.currSlide
   if (!slide) return
-  const target = direction > 0 ? slide.zoomLevels.secondary : slide.zoomLevels.initial
+  const { initial, max } = slide.zoomLevels
+  const stepped = slide.currZoomLevel * (direction > 0 ? ZOOM_FACTOR : 1 / ZOOM_FACTOR)
+  const target = Math.min(Math.max(stepped, initial), max)
+  if (Math.abs(target - slide.currZoomLevel) < 0.001) return
   pswp.zoomTo(target, { x: pswp.viewportSize.x / 2, y: pswp.viewportSize.y / 2 }, 300)
 }
 

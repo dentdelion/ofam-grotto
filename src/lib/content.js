@@ -3,13 +3,15 @@ import galleriesConfig from '../../content/galleries.json'
 // Every image under content/photos/ is bundled at build time; staff only add
 // files and (optionally) a title entry in content/galleries.json.
 //
-// The raw files are multi-megapixel scans (7-14 MB each). We never show more
-// than ~2000px on this 1080-wide kiosk, so each photo is imported twice through
-// vite-imagetools (see vite.config.js) and the originals never reach the bundle:
-//   ?thumb   -> 900px  webp, used for the gallery grid + viewer filmstrip
-//   ?display -> 2000px webp, used for the full-screen lightbox; the ?as=metadata
-//               form also hands us the exact pixel size PhotoSwipe needs, so we
-//               no longer download full images at startup just to measure them.
+// The raw files are multi-megapixel scans (7-14 MB each), so each photo is
+// imported twice through vite-imagetools (see vite.config.js) and the originals
+// never reach the bundle:
+//   ?thumb   -> 600px webp, used for the gallery grid + viewer filmstrip
+//   ?display -> the full-screen lightbox image: 1600px for photos, 4000px for
+//               the maps gallery, which visitors zoom into to read street
+//               names. The ?as=metadata form also hands us the exact pixel
+//               size PhotoSwipe needs, so we no longer download full images at
+//               startup just to measure them.
 const thumbModules = import.meta.glob(
   '/content/photos/*/*/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}',
   { eager: true, query: '?thumb', import: 'default' },
